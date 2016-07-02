@@ -84,12 +84,16 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="学习笔记">
-<meta property="og:url" content="http://yoursite.com/archives/2016/07/index.html">
+<meta name="description" content="看到这个名词，才发现自己一直处于这个法则中，而不自知">
+<meta property="og:type" content="article">
+<meta property="og:title" content="勒布朗（LeBlanc）法则">
+<meta property="og:url" content="http://yoursite.com/2016/01/28/LeBlanc/index.html">
 <meta property="og:site_name" content="学习笔记">
+<meta property="og:description" content="看到这个名词，才发现自己一直处于这个法则中，而不自知">
+<meta property="og:updated_time" content="2016-01-30T05:22:27.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="学习笔记">
+<meta name="twitter:title" content="勒布朗（LeBlanc）法则">
+<meta name="twitter:description" content="看到这个名词，才发现自己一直处于这个法则中，而不自知">
 
 
 
@@ -110,9 +114,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/archives/2016/07/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/01/28/LeBlanc/"/>
 
-  <title> 归档 | 学习笔记 </title>
+  <title> 勒布朗（LeBlanc）法则 | 学习笔记 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -133,7 +137,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  page-archive  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -211,66 +215,127 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 25 篇日志。 继续努力。
-    </span>
-
+  <div id="posts" class="posts-expand">
     
 
-      
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                勒布朗（LeBlanc）法则
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-01-28T00:00:00+08:00" content="2016-01-28">
+              2016-01-28
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
       
       
 
       
+        <p>今天翻开Robert C.Martin著，韩磊译的《代码整洁之道》，在1.2 糟糕的代码一节中，有这么一段话。</p>
+<blockquote>
+<p>我们都曾经瞟一眼自己亲手造成的混乱，决定弃之而不顾，走向新一天。我们都曾经看到自己的烂程序居然能运行，然后断言能运行的烂程序总比什么都没有强。我们曾经说过有朝一日再回头清理。当然，在那些日子里，我们都没听过勒布朗（LeBlanc）法则：稍后等于永不（Later equals never）。</p>
+</blockquote>
+<p>看完这段话，我稍作停留，抬头看着地铁窗外。脑中想到的都是我自己曾经，甚至现在都处于这个法则中。</p>
+<p>例如现在写的一个项目，每次需要添加一个新功能的时候或者需要修改一下其他代码的时候，总会发现这一段代码写的逻辑混乱，还得自己看个半天才能够明白自己写的是什么，按着常理说咱理应花点时间进行重构吧。问题是如果这段代码我现在的功能用不到，我就告诉自己等等，然后继续开发新的功能或者Fix Bug。想着等我把这些东西搞定之后，再来重构这段代码。只是当我看到自己的程序能够成功运行时，也就把重构的事情忘记了，那么该混乱的代码还是混乱的。</p>
+<p>不仅仅是代码的，有时候开发项目，今天用一种方式实现的功能，等过一段时间后再次点开时就觉得原来实现的功能方式是不够完美的，而现在有一个更好的方式实现。只是现在手头还有其他功能需要去开发，然后就告诉自己等有时间了，一定会将这个功能重新实现一下。OK，等着我手头的功能完成了，人就变懒了，看点别的东西，借故休息一下，然后曾经信誓旦旦说需要修改的功能就再也没有下文。</p>
+<p>类似的例子，我生活中也普遍存在着，例如今天一定要做某某事情，看某某书籍，如果由于各种原因没有开始的话，决定做的事情往往就被忘记了，只有等着某天突然想起的时候才回去动手，这虽然没有演变成永不，执行时间却被明显拖长。</p>
+<p>现在知道这种行为有一个专用名词，希望以后能够时时记住这法则，然后让该做的事情能够尽快完成，而不让其成为永不。</p>
+
+      
+    </div>
+
+    <div>
+      
         
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2016">2016</h2>
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/01/17/wen-xue-hui-yi-lu/" rel="next" title="《文学回忆录》上册">
+                <i class="fa fa-chevron-left"></i> 《文学回忆录》上册
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/07/02/hello-world/" rel="prev" title="Hello World">
+                Hello World <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
         </div>
       
-      
 
       
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/07/02/hello-world/" itemprop="url">
-              
-                <span itemprop="name">Hello World</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-02T16:53:45+08:00"
-              content="2016-07-02" >
-          07-02
-        </time>
-      </div>
-
-    </header>
+      
+    </footer>
   </article>
 
 
 
-    
-
-  </section>
-
-  
-
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -278,6 +343,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -297,8 +366,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -334,6 +412,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -437,11 +526,9 @@
 
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
 
 
   

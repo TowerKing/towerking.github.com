@@ -84,12 +84,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="学习笔记">
-<meta property="og:url" content="http://yoursite.com/archives/2016/07/index.html">
+<meta name="description" content="MVP的学习，理论上的一些认识">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MVP初识">
+<meta property="og:url" content="http://yoursite.com/2016/01/08/mvp-start/index.html">
 <meta property="og:site_name" content="学习笔记">
+<meta property="og:description" content="MVP的学习，理论上的一些认识">
+<meta property="og:image" content="http://yoursite.com/../../../../res/clean_architecture.png">
+<meta property="og:updated_time" content="2016-01-25T16:06:21.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="学习笔记">
+<meta name="twitter:title" content="MVP初识">
+<meta name="twitter:description" content="MVP的学习，理论上的一些认识">
+<meta name="twitter:image" content="http://yoursite.com/../../../../res/clean_architecture.png">
 
 
 
@@ -110,9 +116,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/archives/2016/07/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/01/08/mvp-start/"/>
 
-  <title> 归档 | 学习笔记 </title>
+  <title> MVP初识 | 学习笔记 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -133,7 +139,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  page-archive  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -211,66 +217,137 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 25 篇日志。 继续努力。
-    </span>
-
+  <div id="posts" class="posts-expand">
     
 
-      
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                MVP初识
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-01-08T00:00:00+08:00" content="2016-01-08">
+              2016-01-08
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
       
       
 
       
+        <p>MVP已经学习两天，依然不知道如何下手去整一个MVP的Android APP，但是其思想是值得记住的。在后面写代码的时候时刻记住就好，就像脑子中时刻想这命名的重要性以及不要复制自己的原则，在写代码时会刻意的去取个自己容易理解的名字，抑或是看到两段差不多的代码，就想着把公共的部分提炼出来。代码最好也未必就变得特别容易阅读，至少自己在一两个月过后还是能够比较快一点的明白自己在表达是什么，不过也有无法想起的时候。</p>
+<p>所以我记住MVP的一些基本原则，后面写代码时多想想，刻意训练下，代码应该会更容易懂点。现在说说自己对MVP学习这件事情之后的一些理解。</p>
+<p>学习的是MVP，但思想并不是局限于MVP，他和其他的模式如MVC、MVVM之类的目的其实是一样的。都是要使得代码更加简洁优雅。无论是大家对哪种模式的反对与赞同，明白目的一样之后，就没必要为到底选哪一种模式而苦恼，甚至可以在同一个项目中使用多个模式。</p>
+<p>那MVP，MVC或者MVVM主要思想是什么呢，主要体现在一下几点，由于参考的文章是英文，也不知道怎么翻译才足够准确，就原文复制下来。</p>
+<ul>
+<li><p>Independent of Frameworks.</p>
+</li>
+<li><p>Testable.</p>
+</li>
+<li><p>Independent of UI.</p>
+</li>
+<li><p>Independent of Database.</p>
+</li>
+<li><p>Independent of any external agency.</p>
+</li>
+</ul>
+<p><img src="../../../../res/clean_architecture.png" alt="MVP图解"></p>
+<p>具体的请参考<a href="http://fernandocejas.com/2014/09/03/architecting-android-the-clean-way/" target="_blank" rel="external">这篇博文</a>.</p>
+<p>如图说明一样，各个模块彼此独立，而且里面的圈一定不要依赖外面的圈，只能外面的圈依赖里面的圈。现在还是不能很好的理解，得动手试试并多想想场景才能够很好的理解。总之，写代码的时候多想想用什么方式使得代码更简洁就好。</p>
+
+      
+    </div>
+
+    <div>
+      
         
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2016">2016</h2>
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/01/07/overtime/" rel="next" title="我对加班的一些想法与态度">
+                <i class="fa fa-chevron-left"></i> 我对加班的一些想法与态度
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/01/11/blog-puzzle/" rel="prev" title="博客不好写">
+                博客不好写 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
         </div>
       
-      
 
       
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/07/02/hello-world/" itemprop="url">
-              
-                <span itemprop="name">Hello World</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-02T16:53:45+08:00"
-              content="2016-07-02" >
-          07-02
-        </time>
-      </div>
-
-    </header>
+      
+    </footer>
   </article>
 
 
 
-    
-
-  </section>
-
-  
-
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -278,6 +355,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -297,8 +378,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -334,6 +424,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -437,11 +538,9 @@
 
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
 
 
   
