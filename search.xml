@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+    
+    <entry>
+      <title><![CDATA[勒布朗（LeBlanc）法则]]></title>
+      <url>http://towerking.github.io/2016/01/28/LeBlanc/</url>
+      <content type="html"><![CDATA[<p>今天翻开Robert C.Martin著，韩磊译的《代码整洁之道》，在1.2 糟糕的代码一节中，有这么一段话。</p>
+<blockquote>
+<p>我们都曾经瞟一眼自己亲手造成的混乱，决定弃之而不顾，走向新一天。我们都曾经看到自己的烂程序居然能运行，然后断言能运行的烂程序总比什么都没有强。我们曾经说过有朝一日再回头清理。当然，在那些日子里，我们都没听过勒布朗（LeBlanc）法则：稍后等于永不（Later equals never）。</p>
+</blockquote>
+<p>看完这段话，我稍作停留，抬头看着地铁窗外。脑中想到的都是我自己曾经，甚至现在都处于这个法则中。</p>
+<p>例如现在写的一个项目，每次需要添加一个新功能的时候或者需要修改一下其他代码的时候，总会发现这一段代码写的逻辑混乱，还得自己看个半天才能够明白自己写的是什么，按着常理说咱理应花点时间进行重构吧。问题是如果这段代码我现在的功能用不到，我就告诉自己等等，然后继续开发新的功能或者Fix Bug。想着等我把这些东西搞定之后，再来重构这段代码。只是当我看到自己的程序能够成功运行时，也就把重构的事情忘记了，那么该混乱的代码还是混乱的。</p>
+<p>不仅仅是代码的，有时候开发项目，今天用一种方式实现的功能，等过一段时间后再次点开时就觉得原来实现的功能方式是不够完美的，而现在有一个更好的方式实现。只是现在手头还有其他功能需要去开发，然后就告诉自己等有时间了，一定会将这个功能重新实现一下。OK，等着我手头的功能完成了，人就变懒了，看点别的东西，借故休息一下，然后曾经信誓旦旦说需要修改的功能就再也没有下文。</p>
+<p>类似的例子，我生活中也普遍存在着，例如今天一定要做某某事情，看某某书籍，如果由于各种原因没有开始的话，决定做的事情往往就被忘记了，只有等着某天突然想起的时候才回去动手，这虽然没有演变成永不，执行时间却被明显拖长。</p>
+<p>现在知道这种行为有一个专用名词，希望以后能够时时记住这法则，然后让该做的事情能够尽快完成，而不让其成为永不。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[《文学回忆录》上册]]></title>
+      <url>http://towerking.github.io/2016/01/17/wen-xue-hui-yi-lu/</url>
+      <content type="html"><![CDATA[<p>《文学回忆录》买来发现上下两册，每册都有500多页，这周将上册读完，感觉就像一个智者长者在和我说话。他在上面说，我在下面听着，虽然很多东西听着不是很明白，即使再花不少时间也不一定能弄明白，但是我还是愿意听他讲的，即使时间再长也是愿意的。</p>
+<p>《文学回忆录》中记录的是木心先生对文学、哲学、艺术以及宗教的历史以及自己的见解，见解独到，各国各个时代的文学、人物都可以进行类比，说出来的话也是其他地方无法看到的。真正让人感觉到其博学，并按着自己的理解给理解透了。里面的妙语无数，想摘录也无法摘录，若是真的摘录，也许得通篇敲一遍。其中有这么几句是说艺术与宗教的。</p>
+<blockquote>
+<p>放下屠刀，立地成佛，是宗教。放下屠刀，立地不成佛，是艺术。</p>
+<p>苦海无边，回头是岸，是宗教。苦海无边，回头不是岸，是艺术。</p>
+</blockquote>
+<p>说的我似懂非懂，其实是完全不懂，而现在不管懂或着不懂，我都想尽快开始阅读下册。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[周末是我计划的杀手]]></title>
+      <url>http://towerking.github.io/2016/01/16/weekend-is-a-killer/</url>
+      <content type="html"><![CDATA[<p>当我想做点事情的时候，总是会计划每天干些什么。原本我以为平时周末下班之后比较累，回来做这些工作之外的事情比较难，而周末时间相对比较宽裕，执行计划应该会比较简单。可实际上却相反，每次周末执行起来反而比平时还要困难些。不要说周末时间充裕可以多做些事情，有时候连原本的计划都没有很好的完成。</p>
+<p>这种现象并不是说最近才有的，早几年的计划都是这样。有时候有些计划，常常因为周末的存在被扼杀。对于这种现象，我现在的解释有两种：</p>
+<ol>
+<li><p>平时工作，身体与脑力都习惯做事情，周末身体与脑力同样习惯休息。</p>
+</li>
+<li><p>周末时间比较充裕，认为拖延拖延也没有关系，结果拖着拖着一天就过去了。</p>
+</li>
+</ol>
+<p>还有什么更深层次的原因或者有什么比较好的方式去解决这个问题是我的一个思考题。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[SwipeRefreshLayout程序自动触发]]></title>
+      <url>http://towerking.github.io/2016/01/15/SwipeRefreshLayout/</url>
+      <content type="html"><![CDATA[<p>关于SwipeRefreshLayout程序自动触发是之前就已经解决的问题，只是当时没有记录的习惯，所以没有记录。今天工作主要是针对之前的项目一些修改，并没有新的知识点获得，就拿这个已经获得的东西来滥竽充数。</p>
+<p>SwipeRefreshLayout是google自己推出的下拉刷新控件，易用，我在项目中一般都会使用该控件。下面开始说说它的几个常用方法以及相关代码片段。</p>
+<ul>
+<li>setColorSchemeResources设置用于进度条动画的颜色</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">// 这样设置后，在请求数据的过程中就有四种颜色可以交替变换</div><div class="line">swipeRefreshLayout.setColorSchemeResources(android.R.color.holo_blue_light,</div><div class="line">        android.R.color.holo_red_light, android.R.color.holo_orange_light,</div><div class="line">        android.R.color.holo_green_light);</div></pre></td></tr></table></figure>
+<ul>
+<li>setOnRefreshListener 为下拉刷新添加一个监听事件</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() &#123;</div><div class="line">    @Override</div><div class="line">    public void onRefresh() &#123;</div><div class="line">        // do something in background</div><div class="line">    &#125;</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<ul>
+<li>setRefreshing 通知组件刷新状态已经修改，从而显示或者隐藏进度条，下拉刷新时不能调用此方法</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">// 一般在自己获取数据完成后调用</div><div class="line">swipeRefreshLayout.setRefreshing(false);</div></pre></td></tr></table></figure>
+<ul>
+<li>post(Runnable action) 用于执行后台程序，如果想自动触发下拉刷新，就需要调用此方法</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">swipeRefreshLayout.post(new Runnable() &#123;</div><div class="line">    @Override</div><div class="line">    public void run() &#123;</div><div class="line">    	// 显示设置进度条可见</div><div class="line">        swipeRefreshLayout.setRefreshing(true);</div><div class="line">        // do something in background</div><div class="line">    &#125;</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[关于隐性成本的浅识]]></title>
+      <url>http://towerking.github.io/2016/01/14/implicit-cost/</url>
+      <content type="html"><![CDATA[<p>这段时间看见不少大牛的公众号有谈到各种各样的隐形成本，如时间成本、信用成本、决策成本等等其他相关内容。其中时间成本是看到比较多的，也是我现在可以想象的。至于信用成本与决策成本现在还不能好好的体会。</p>
+<p>那就来谈谈我对时间成本的一些想法。</p>
+<p>在看到的例子中是说你在北上广上班，有些人离公司近，有些人为了省点房租就住的远点，然后来回路上浪费不少时间。</p>
+<blockquote>
+<p>关于这个我想其实不是时间的问题，而是意识的问题。</p>
+</blockquote>
+<p>就拿我刚到上海的来说吧，上班就离要坐很久的时间，我也没有觉得这有什么不好，因为离公司近的房租真的住不起。其次，是我也不知道利用这节约的时间用来干什么，每次下班回去之后都是看连续剧或者动漫。这个时候无论我住在公司多么的近其实意义都不是很大，无非是用来看更多的连续剧与动漫。后来工作慢慢顺手，感觉长时间没有进步，又喜欢上读点书，就感觉有事情可以做，这个时候开始意识到时间还是要好好利用的。每次坐公交的时候，要么是听着歌，看着Kindle上的一些小说，感觉还是很不错的。太挤的时候就用来听听小说，感受一下不同世界的故事。虽然大部分东西都忘记差不多，但是脑中也留下了点种子，在日后会时不时的给自己一点帮助。</p>
+<p>最近开始准备积累一些东西，才真正感觉到时间的浪费真的很多，尤其是早上早高峰时，我进16号线车站都要比较长时间。而这段时间是很难做些事情的，除了在脑中想些问题或者听听音乐。最近不喜欢听书或者Kindle电子书，而是喜欢纸质书，所以进车厢尽量去有座位的过道，这样方便阅读。如果此时住的近一点，意义就比较大。</p>
+<p>还一个关于时间成本的是说找盗版书籍与盗版软件的，这个我是同意的。不单单是说找这些东西浪费的时间远远多余买一本正版书籍或者软件的时间，还有一点是知识创造者辛辛苦苦写出来的东西或者做出来的东西，总得给一个回报的。如果盗版盛行，好的作品可能就少了。对于盗版书籍曾经下过不少英文版的pdf，基本没有看。现在基本没有下了，想看的书都直接去网店购买，买回来就开始看。</p>
+<p>原来在Windows上工作的时候，用微软东西编程的时候，盗版软件真的不少，有各种开发软件与办公软件;后来，我将开发环境换成Ubuntu的时候，盗版软件就没有了，都是些开源的或者免费的软件（如果我现在还去用Windows系统，感觉还是会用盗版软件，系统也会是盗版的，怎么就感觉Windows用盗版就成习惯了呢？是不是太穷的原因！！！？）。</p>
+<p>还一个例子是说看视频的时候，买会员去广告的，这个我就持保留意见。我觉得在看视频的时候，看看1分钟的广告有时候也挺好的，看看广告都在做些什么，或者乘机让眼睛歇歇。</p>
+<p>综上，关于时间成本的问题，往往是不清楚自己用多余的时间干些什么事情比较好。本质上，应该是不知道提升自己，不知道去学习;等意识到需要为自己充电的时候，是会想着法子去节约时间的。其次还有可能是“穷”，又舍不得花钱，感觉能省点就省点，这个我觉得还是该花的就花吧，尤其是在买书这件事情上，就别犹豫了。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[RecyclerView的使用入门]]></title>
+      <url>http://towerking.github.io/2016/01/13/recycler-view/</url>
+      <content type="html"><![CDATA[<p>不应该放弃学习的，更不应该放弃学习新知识。因为有时候新的知识点能够帮助我们更好的工作，并提高一定的工作效率。对于Android开发来说，RecyclerView就是这么个控件。它能够完成ListView与GridView的功能，而且还可以完成瀑布流的功能，关键是切换起来非常方便。</p>
+<p>官网中有段英文说明是说RecyclerView是一个更高级与灵活的ListView版本。能够高效加载大量数据，同时我们还可以灵活的自定义该组件。我这只是简单的翻译，完整的可以参考<a href="http://developer.android.com/training/material/lists-cards.html#RecyclerView" target="_blank" rel="external">官方网址</a>(访问需要翻墙的)。</p>
+<p>现在说明一下其简单的使用方法，下面将会是些代码片段，具体的看到效果还得自己写代码去看看。这里主要用到的组件有RecyclerView与CardView控件（这个比较简单的，就可以和LinearLayout使用方法差不多），然后依然使用前一篇文章使用的Butter Knife开源库。所以gradle配置文件需要涵盖下面的内容。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">dependencies &#123;</div><div class="line">    compile &apos;com.android.support:cardview-v7:23.1.1&apos;</div><div class="line">    compile &apos;com.android.support:recyclerview-v7:23.1.1&apos;</div><div class="line">    compile &apos;com.jakewharton:butterknife:7.0.1&apos;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>gradle引用完jar包，就可以在项目中正常使用RecyclerView与CardView了，首先在MainActivity对应的layout文件中包含RecyclerView控件。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;android.support.v7.widget.RecyclerView</div><div class="line">        xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;</div><div class="line">        android:layout_width=&quot;match_parent&quot;</div><div class="line">        android:layout_height=&quot;match_parent&quot;</div><div class="line">        android:id=&quot;@+id/recycler_view&quot; /&gt;</div></pre></td></tr></table></figure>
+<p>像ListView一样，我们需要为RecyclerView中的container添加一个新的layout文件以及对应的Adapter。其对应的layout文件如下，取名为<code>view_book_intro</code>。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</div><div class="line">&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;</div><div class="line">    android:orientation=&quot;vertical&quot; android:layout_width=&quot;match_parent&quot;</div><div class="line">    android:layout_height=&quot;match_parent&quot;&gt;</div><div class="line"></div><div class="line">    &lt;!-- A CardView that contains a TextView --&gt;</div><div class="line">    &lt;android.support.v7.widget.CardView</div><div class="line">        xmlns:card_view=&quot;http://schemas.android.com/apk/res-auto&quot;</div><div class="line">        android:id=&quot;@+id/card_view&quot;</div><div class="line">        android:layout_gravity=&quot;center&quot;</div><div class="line">        android:layout_width=&quot;match_parent&quot;</div><div class="line">        android:layout_height=&quot;wrap_content&quot;</div><div class="line">        card_view:cardCornerRadius=&quot;4dp&quot;&gt;</div><div class="line">        &lt;TextView xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;</div><div class="line">            android:id=&quot;@+id/book_intro_title&quot;</div><div class="line">            android:layout_width=&quot;match_parent&quot;</div><div class="line">            android:layout_height=&quot;wrap_content&quot; /&gt;</div><div class="line">    &lt;/android.support.v7.widget.CardView&gt;</div><div class="line">&lt;/LinearLayout&gt;</div></pre></td></tr></table></figure>
+<p>对应的Adapter（我取名是BookIntroAdapter）需要集成RecyclerView.Adapter，然后重写其三个方法，完整代码如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div></pre></td><td class="code"><pre><div class="line">public class BookIntroAdapter extends RecyclerView.Adapter&lt;BookIntroAdapter.ViewHolder&gt; &#123;</div><div class="line">   private String[] mDataSet;</div><div class="line"></div><div class="line">   public static class ViewHolder extends RecyclerView.ViewHolder &#123;</div><div class="line">   	// 获取到RecyclerView的container下的TextView组件信息</div><div class="line">       @Bind(R.id.book_intro_title) TextView mTextView;</div><div class="line">       public ViewHolder(View view) &#123;</div><div class="line">           super(view);</div><div class="line">           // 别忘记这句，否则TextView就没有初始化</div><div class="line">           ButterKnife.bind(this, view);</div><div class="line">       &#125;</div><div class="line">   &#125;</div><div class="line"></div><div class="line">   public BookIntroAdapter(String[] bookDataSet) &#123;</div><div class="line">       this.mDataSet = bookDataSet;</div><div class="line">   &#125;</div><div class="line"></div><div class="line">   @Override</div><div class="line">   public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) &#123;</div><div class="line">       View view = LayoutInflater.from(parent.getContext()).inflate</div><div class="line">               (R.layout.view_book_intro, parent, false);</div><div class="line">       return new ViewHolder(view);</div><div class="line">   &#125;</div><div class="line"></div><div class="line">   @Override</div><div class="line">   public void onBindViewHolder(ViewHolder holder, int position) &#123;</div><div class="line">   	// 这里是为控件赋值</div><div class="line">       holder.mTextView.setText(mDataSet[position]);</div><div class="line">   &#125;</div><div class="line"></div><div class="line">   @Override</div><div class="line">   public int getItemCount() &#123;</div><div class="line">       return mDataSet.length;</div><div class="line">   &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>看看这段代码是不是要比实现ListView的Adapter更简单呢？</p>
+<p>接下来我们就可以在MainActivity中调用RecyclerView组件，MainActiviy的代码片段如下。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">@Bind(R.id.recycler_view) RecyclerView recyclerView;</div><div class="line">...	// 表示其他代码</div><div class="line">@Override</div><div class="line">protected void onCreate(Bundle savedInstanceState) &#123;</div><div class="line">	super.onCreate(savedInstanceState);</div><div class="line">    setContentView(R.layout.activity_main);</div><div class="line">    ButterKnife.bind(this);</div><div class="line">    ...</div><div class="line"></div><div class="line">    // 1. 这可以实现ListView的功能</div><div class="line">    recyclerView.setLayoutManager(new LinearLayoutManager(this));</div><div class="line"></div><div class="line">    // 2. 这可以实现GridView功能，其中2表示一行显示两个元素</div><div class="line">    recyclerView.setLayoutManager(new GridLayoutManager(this, 2));</div><div class="line"></div><div class="line">    // 3. 这是瀑布流形式的调用方法，如果想看出效果，可以在初始化字符串时多给几个\n</div><div class="line">    recyclerView.setLayoutManager(new StaggeredGridLayoutManager(2,</div><div class="line">                StaggeredGridLayoutManager.VERTICAL));</div><div class="line"></div><div class="line">    recyclerView.setAdapter(new BookIntroAdapter(new String[]&#123;&quot;Java&quot;, &quot;Android&quot;, &quot;C#&quot;&#125;));</div><div class="line"> &#125;</div></pre></td></tr></table></figure>
+<p>注意：上述代码片段中的1、2、3就是不同呈现方式需要的代码，在实际项目中根据实际情况任意选一个就好。看到这么便利的组件，难道不想试一试嘛？</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Butter Knife简介]]></title>
+      <url>http://towerking.github.io/2016/01/12/butter-knife/</url>
+      <content type="html"><![CDATA[<p>最初写Android项目的时候，也不知道可以用什么开源项目，就跟着《第一行代码》里面写的一些东西开始第一个界面。大量的XML文件，Activity中调用控件的时候，用的是下面的代码。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">View view = findViewById(R.id.item);</div><div class="line">// 如果是其他控件，还得自己手动转，如TextView，则需要这样写</div><div class="line">TextView textView = (TextView) findViewById(R.id.text);</div></pre></td></tr></table></figure>
+<p>起初也没有感觉这么写有什么不好，虽然有点繁琐，但是将这些初始化的组件，在代码起初申明好变量，然后将所有获取控件的代码放在一个统一的方法中，也就无须管事。后来陆续看别人分享的代码或者开源项目的时候，大多数都使用了Butter Knife这个开源库，它是用注解的方式来完成我们之前的工作，形式如下。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">@Bind(R.id.text) TextView textView;</div></pre></td></tr></table></figure>
+<p>就一行也许没有看出什么特别优势，但是如果写的控件比较多，这样写的优势还是很明显的，代码量至少节约点，也比较容易读，好像TextView是@Bind(R.id.text)类型一样(这样理解是不是有点问题)。声明完这些控件之后，不要忘记在Activity中的onCreated方法中调用一行代码，否则会出现空指针异常，找不到控件之类的。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">@Override</div><div class="line">protected void onCreate(Bundle savedInstanceState) &#123;</div><div class="line">    super.onCreate(savedInstanceState);</div><div class="line">    setContentView(R.layout.activity_main);</div><div class="line">    // 一定要加上这行代码</div><div class="line">    ButterKnife.bind(this);</div><div class="line">    // do more things</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>如果不是在Activity中使用这个，在其他地方使用，如继承RecyclerView.ViewHolder的ViewHolder中，绑定方式有些许区别。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">public static class ViewHolder extends RecyclerView.ViewHolder &#123;</div><div class="line">    @Bind(R.id.text) TextView mTextView;</div><div class="line">    public ViewHolder(View view) &#123;</div><div class="line">        super(view);</div><div class="line">        // 注意这句，绑定方式和之前的是不是有点不一样</div><div class="line">        ButterKnife.bind(this, view);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>如何在自己的项目中使用ButterKnife开源库，只需要在gradle中配置一行引用依赖</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">compile &apos;com.jakewharton:butterknife:7.0.1&apos;</div></pre></td></tr></table></figure>
+<p>这个开源库学习起来还是比较简单的，基本上将其官网的东西从头到尾看一遍就好了，如果忘记就再查一下。我这里只是简单的说明了一下Butter Knife的使用方式，关于它的更多信息，可以参考其<a href="http://jakewharton.github.io/butterknife/" target="_blank" rel="external">官网</a>。</p>
+<p>============<br>2016.01.18补记<br>今天在用ButterKnife的时候遇到一个错误exception java.lang.RuntimeException: Unable to bind views for Fragment on ButterKnife.bind(this, view)。经过查阅发现是控件绑定错误，本来是<code>ImageView</code>控件，在使用ButterKnife进行绑定的时候使用了<code>Button</code>。参考<a href="http://stackoverflow.com/questions/31906268/butter-knife-unable-to-bind-views-for-fragment" target="_blank" rel="external">Stackoverflow网站</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[博客不好写]]></title>
+      <url>http://towerking.github.io/2016/01/11/blog-puzzle/</url>
+      <content type="html"><![CDATA[<p>每次自己买书看的时候，从来没有想过这些文字写出来到底有困难，读起来倒是无比顺畅。每天看着微信公众号写的文章，同样让人感觉没有什么困难。最近这段时间尝试着自己写点东西，无论是技术相关的还是非技术相关的，感觉都很难将一句话写的明白。每每改了好几回，也没觉得句子是通畅的。可有想不出更加好的句子，最后也就勉为其难的发表出来，好在这些主要是写给自己看的，文笔差点就差点了。</p>
+<p>句子反反复复的写不顺畅是博客不好写的一个原因，其次还有一个原因是不知道写些什么。无论是技术方面，还是非技术方面，没开始写的时候，想到应该这么写来着。等到真开始写的时候，又不知道如何下手，或者记得怎么下手的时候，就又觉得这样写不是很好，于是又迟迟的无法敲动键盘。只能眼睁睁的看着自己的markdown编辑器想着我该写些什么。</p>
+<p>对于技术文章无法下手，我大致想出的原因是我总想着写出一系列惊人的技术分享。可无奈自己所遇到的问题与技术都是写小问题，想清楚原因或者看清楚日志，再借助一下Google，就能解决问题。问题最终解决，也没觉得有什么，就认为这些没什么好记录的，想写一篇质量更高的技术文章，而这个感觉就更困难。这无形中就造成“高不成低不就的感觉”。</p>
+<p>关于非技术文章，就前面写的那几篇来说，基本就是自己的一些经历和个人感想，属于自己脑子中的东西，想到了就写出来，也不管到底值不值得写。写着写着，总感觉这种写法有点无病呻吟的感觉，写出来的东西似乎没有什么参考性。总感觉文章写出来有点过于干涸，没什么养分，让人无法一直这么写下去。后面想着再写点东西的时候，一看又是这种模式，就又不想敲键盘了。</p>
+<p>就这样想敲点字，本来挺简单的一件事情，做着做着却开始怀疑这么做的意义，从而进入一种纠结的状态。为了破除这种状态，在没有好的技术可分享，有见地的文章可写的情况下，我也只能在一些不怎么高明的技术分享或者无病呻吟的文章中上下求索咯。坚持一周几篇的频率，期待着哪一天能够写出一些质量稍微好的技术分享或者文章。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[MVP初识]]></title>
+      <url>http://towerking.github.io/2016/01/08/mvp-start/</url>
+      <content type="html"><![CDATA[<p>MVP已经学习两天，依然不知道如何下手去整一个MVP的Android APP，但是其思想是值得记住的。在后面写代码的时候时刻记住就好，就像脑子中时刻想这命名的重要性以及不要复制自己的原则，在写代码时会刻意的去取个自己容易理解的名字，抑或是看到两段差不多的代码，就想着把公共的部分提炼出来。代码最好也未必就变得特别容易阅读，至少自己在一两个月过后还是能够比较快一点的明白自己在表达是什么，不过也有无法想起的时候。</p>
+<p>所以我记住MVP的一些基本原则，后面写代码时多想想，刻意训练下，代码应该会更容易懂点。现在说说自己对MVP学习这件事情之后的一些理解。</p>
+<p>学习的是MVP，但思想并不是局限于MVP，他和其他的模式如MVC、MVVM之类的目的其实是一样的。都是要使得代码更加简洁优雅。无论是大家对哪种模式的反对与赞同，明白目的一样之后，就没必要为到底选哪一种模式而苦恼，甚至可以在同一个项目中使用多个模式。</p>
+<p>那MVP，MVC或者MVVM主要思想是什么呢，主要体现在一下几点，由于参考的文章是英文，也不知道怎么翻译才足够准确，就原文复制下来。</p>
+<ul>
+<li><p>Independent of Frameworks.</p>
+</li>
+<li><p>Testable.</p>
+</li>
+<li><p>Independent of UI.</p>
+</li>
+<li><p>Independent of Database.</p>
+</li>
+<li><p>Independent of any external agency.</p>
+</li>
+</ul>
+<p><img src="/images/clean_architecture.png" alt="MVP图解"></p>
+<p>具体的请参考<a href="http://fernandocejas.com/2014/09/03/architecting-android-the-clean-way/" target="_blank" rel="external">这篇博文</a>.</p>
+<p>如图说明一样，各个模块彼此独立，而且里面的圈一定不要依赖外面的圈，只能外面的圈依赖里面的圈。现在还是不能很好的理解，得动手试试并多想想场景才能够很好的理解。总之，写代码的时候多想想用什么方式使得代码更简洁就好。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[我对加班的一些想法与态度]]></title>
+      <url>http://towerking.github.io/2016/01/07/overtime/</url>
+      <content type="html"><![CDATA[<h5 id="写在“加班”前的话"><a href="#写在“加班”前的话" class="headerlink" title="写在“加班”前的话"></a>写在“加班”前的话</h5><p>近来要为自己的APP添加功能或者修改Bug的时候，常常觉得自己的项目不够简洁。各个类与方法非常混乱，而且Activity是个God Class，让人感觉代码不够简洁不够优雅。今天看到MVP架构，从头到尾理解，但是并没有理解透彻，准备写完简单Demo来实践该架构，再来说明一下自己的理解。</p>
+<h5 id="回归正题"><a href="#回归正题" class="headerlink" title="回归正题"></a>回归正题</h5><p>这几年工作过的项目，往往在项目前期或者上线的时候有过大幅度加班。而项目趋于稳定或者没什么项目可做的时候，就没有加过班。下面的话全是自己的经历与理解，并没有大量的数据进行验证。如有问题，也仅是自己的个人观点，欢迎讨论。</p>
+<blockquote>
+<p>在加班的时间里大概有两种情况。</p>
+</blockquote>
+<p>一种是对于一门技术的不了解，工作的时候总有许多内容需要一边学习一边实验的，导致需要一些额外的时间才能够完成工作。这个在我看来是正常的，往往这个时候也没觉得自己是在加班。也就是说专注解决问题的时候，没有意识到这是属于额外的工作，反而在解决完问题的时候，有一定的成就感。</p>
+<p>另外一种情况是项目工期特别紧，需要加班加点的完成工作。到最后也许依然不能够完成工作，或者勉强完成工作，只是工作质量就有待考察。对于这种加班我觉得是低效的，如果最后发现项目没有签合同时，就感觉之前努力没有什么意思（不过当时那种充实的感觉还是不错的）。</p>
+<p>现在不说没有签合同的项目，就单纯的说说项目工期紧张，然后需要天天加班的事情为什么是低效的。因为在我印象中，那种高频的加班（印象中一个月就休息一天），确实每天都在很长时间的工作，只是我不确定一天是否真的有工作十几个小时。我不知道其他人在这种情况下是如何工作的，但我知道我自己并没有一天长时间的工作，总会有开小差的时候，浏览下网页，看一下微博，或者是和朋友聊聊天，然后回归工作。后来看了些书或者一些牛人高效工作的方法，发现我这种开小差的方式明显是影响工作效率的。</p>
+<p>以现在的视角来看，工作每天确保高效的工作几个小时可能胜于十几个小时。不仅工作能够完成，还有更多时间去做自己的事情，如读书、锻炼或者学习。而这些事情，在某个层面又会帮助我们提高工作效率。我想我们不应该一门意思的敲代码，偶尔的看看天，是能够帮助我们提高效率的，即使你没有工作那么长时间。</p>
+<p>理想状态下，在工期明显有问题的时候，我觉得不应该鼓励大家天天加班，而是应该引导提高工作效率。毕竟加班也只是为了解决效率问题。而解决效率问题方法应该不只一种，还有其他方式，我认为最有效的方式是提高整个团队的编程能力，这个需要团队抽出点时间进行培训，使得项目组的新成员也能够写出漂亮的代码。还有一种就是引导成员自己去学习，而不是一味的写代码。最后，项目如果依然无法限期完成，我觉得需要调整计划，不能一直执行一个不可完成的计划，这个真的会打击整个团队的气势与激情的（关于这个，我也有点想法，可以参考这个<a href="../../../2015/12/25/plan-rule.html">这个网址</a>）。</p>
+<p>做个总结：</p>
+<blockquote>
+<p>对于加班我的看法是不能够为了加班而加班的，如果这样加班，加班就失去了意义。在适当的时候，加班是没有关系的，例如学习新技术的时候，或者产品上线的一段时间等。这些时候的加班才是有效的，有意义的，能够看到其作用的。最后，我想之所以不能够长期加班，是因为会影响整个团队的士气，无法做到高效的工作，就需要一些休息与调整。自然，如果能够让整个团队天天激情高昂的去做事情，加班与不加班的说法也许就不存在。</p>
+</blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[一个单词拼写错误引发的效率低下]]></title>
+      <url>http://towerking.github.io/2016/01/06/umeng/</url>
+      <content type="html"><![CDATA[<p>今天为公司的Android APP集成友盟的统计功能。于是打开友盟的帮助文档，从头卡开始浏览，发现集成起来比较方便。于是就开始动手实验。没几下，几行代码就搞定集成，剩下的就是测试。</p>
+<p>打开APP，简单点击实验，然后查看友盟的统计数据，发现其渠道数据只有unknown。而实际应该是wandoujia，huawei这写应用厂商的。于是check自己写的代码与官方提供文档是不是有什么出路，仔细核对之后并无出路。</p>
+<p>这个时候虽然将代码集成，但是并没有想清楚友盟如何做到渠道统计的。又将其流程过滤一遍，发现只可能是在manifest.xml文件中进行配置。又因为此时生成的apk文件是利用gradle的配置生成的多渠道包，基于自己对Gradle并不是很熟悉，而其配置文件是参考<a href="http://stormzhang.com/devtools/2015/01/15/android-studio-tutorial6/" target="_blank" rel="external">Gradle多渠道打包</a>,我就是在想是不是其渠道的名字没有成功获取到(这个推断是正确的，只是没有想到错误方式居然是…)。</p>
+<p>于是我开始用apktool对自己的apk进行反编译想看看manifest.xml文件是否OK，结果发现其渠道值并没有问题，就是我自己想生成的。</p>
+<p>在这个时候，我才意思到可能是我配置出现问题，于是去官网将其配置的两个参数名复制，然后在Android Studio中的xml文件进行查找，结果发现<code>UMENG_CHANNEL</code>没有找到，我心想不应该的，这个参数怎么也是配置过的，等我找到这行配置时，才发现我的配置是<code>UMENG_CHANNE</code>。一对比就知道结尾忘记拼写<code>L</code>。</p>
+<p>再回头看，本来就几行代码能够完成的功能。我硬是将其过程演变成集成<em>代码 -&gt; 反复核对 -&gt; 反编译 -&gt; 核对查找</em>，这么几个过程。而这个过程从头到尾花去我<code>61分钟</code>，如果说开始单词没有拼写错误的情况下，应该是不要<code>10分钟</code>就能够解决的。这不就是赤裸裸的降低开发效率嘛？</p>
+<blockquote>
+<p>最后用今天学到的一句英文来警示自己，以后尽可能尽可能的少犯这种错误！</p>
+<p>Why am I always making the same mistake?</p>
+</blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Android博客系列计划]]></title>
+      <url>http://towerking.github.io/2016/01/05/android-plan/</url>
+      <content type="html"><![CDATA[<h5 id="写在前面的话"><a href="#写在前面的话" class="headerlink" title="写在前面的话"></a>写在前面的话</h5><p>当时好不容易决定维护自己的Blog，目的主要是写点技术相关的东西，顺便写点自己平时想的东西。现在反过来，技术文章基本没有一篇，自己瞎想的东西却已经有那么几篇。今天打开markdown准备编辑的时候，又是准备写些非技术相关的东西。猛然意识到这样完全和自己最初的想法有所偏差。原来还想着随便写点什么，尽量养成一下写点东西的习惯，等把Android技术相关的东西整理清除，再开始写。现在看来，如果不把写技术文章作为首要任务，似乎就永远被遗忘在角落里。因为自己发现，在闲暇时间我总想着写点什么话题好，而忘却弄点什么技术点写出来。</p>
+<blockquote>
+<p>我不禁想：开始一件事情的有效方式是起初就执行，尔后再执行与计划进行循环迭代，在迭代过程中完善，在迭代过程中提高效率。</p>
+</blockquote>
+<h5 id="关于技术"><a href="#关于技术" class="headerlink" title="关于技术"></a>关于技术</h5><p>现在还是感觉技术博文比较难写，也不清楚要写些什么。不管怎样，大致先确定以下几个方向，然后慢慢想着。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">1. Android的一些基本理论学习与总结，一些技术细节的原理等。</div><div class="line"></div><div class="line">2. 在开发现在的项目中，遇到的一些问题总结出来，并说明解决方案。</div><div class="line"></div><div class="line">3. 项目中，哪些地方是需要改善的，应该怎么改善。</div><div class="line"></div><div class="line">4. 用到的开源库，说明其使用方法，或者源码分析，从中学到什么东西。</div><div class="line"></div><div class="line">5. 从项目中，提炼一些通用的东西，然后放到github中，说明其使用方式。</div><div class="line"></div><div class="line">6. 对现在已经使用的技术，但是却不是很清晰的东西，尽量弄清楚来。</div><div class="line"></div><div class="line">7. 自己准备开发一个读书记录的个人项目，开发这个项目的点点滴滴也可以记录。</div></pre></td></tr></table></figure>
+<p>嗯，这么一看要写的东西方向还是挺多，再好好挤一挤，或许能写点东西出来。:)</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[关于死循环我是这么想的]]></title>
+      <url>http://towerking.github.io/2016/01/05/endless-loop/</url>
+      <content type="html"><![CDATA[<p>我们在生活或者工作中总是遇到一些问题需要去解决。其中有不少是“死循环”问题，一些看似无解的东西。</p>
+<p>最近想来这类问题是比较容易解决的，因为是个环，其必有多个节点可以作为攻破点，任何一个节点被攻克之后，环终将不是环。这就像两军对垒时，有一方摆出一个环环相扣的阵法，看似无敌，却总被明眼人找到致命弱点，一破便获得胜利。</p>
+<p>再看我们的“死循环”也就这么回事，而环的致命弱点往往是自己所处的节，你想想敌阵中最要命的环节居然是我们安插的“内奸”，怎能不破？</p>
+<p>所以说，遇到问题把各个环节写出来，答案也许就已找到。</p>
+<p>PS:我用了“我们”而没有用“我”，因为我知道自己在这方面并不孤单。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[计划是有了，然后呢]]></title>
+      <url>http://towerking.github.io/2016/01/04/goal-and-execution/</url>
+      <content type="html"><![CDATA[<p>2016年1月2日根据2015年积累的一点知识，按着每天或者每周几次的频率列举自己2016年应该开始做的一些事情。并期待着自己能够在这一年能够耐心的积累一些东西，然后让自己感觉有点成长。</p>
+<p>愿望是美好的，只是就3号与今天的表现来看，有点担心计划始终是计划。而这种担心源自于思想与行动不一致，所以它将会在我开始做的那一刻起就停止。道理是这么讲，只是何时开始行动呢？</p>
+<blockquote>
+<p>NOW！</p>
+</blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[为何买个东西也会紧张]]></title>
+      <url>http://towerking.github.io/2016/01/01/buy-macbook/</url>
+      <content type="html"><![CDATA[<p>今天2016年第一天，原本就计划这今天去买一台Macbook Pro回来。我起先在官网选择好Mac，一看要好几天才能到。就决定今天下午就苹果体验店购买，准备买完就回家。</p>
+<p>等我下地铁来到苹果体验店，我居然没有直接说出自己的需求，而是在苹果体验店转了几圈。如果是平时，还可以真的体验下新品。可今天是元旦，每张桌子都完满了人，就没有心思去体验下iPad Pro，不过瞟了一眼，真的很大，比我家里的iPad 4大太多。</p>
+<p>转完几圈，准备与工作人员说需求的时候，我居然紧张。简直就是莫名其妙，不得已我就到苹果体验店外围的商城转了一下，然后才平复自己紧张的心。再到体验店时，就直接说需求，准备提着电脑就走人。</p>
+<p>只是等我说完我的需求，才知道实体店的Macbook Pro只有三种类型，我想买的那个CPU好点的型号，居然没有。说这是定制的，需要官网上才能够买到。无奈，电脑没有买到，还白白浪费了点时间的同时也get一个新技能。</p>
+<p>至于为什么会紧张呢？可能和自己生平第一次准备买个近2万大洋的东西有关。也许这个不是紧张，只是提前感到兴奋。</p>
+<h5 id="给自己的些许祝福"><a href="#给自己的些许祝福" class="headerlink" title="给自己的些许祝福"></a>给自己的些许祝福</h5><p>电脑没买到，2016还是来了，希望这一年能够耐心的做些事情，不要到年底的时候又发现什么也没有做成。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[2015年度总结]]></title>
+      <url>http://towerking.github.io/2015/12/31/2015/</url>
+      <content type="html"><![CDATA[<p>2015年整体来看还是像往年一样的平淡。虽没什么大事发生，小事却有那么几件值得说一下。</p>
+<p>这一年，我从4月份开始决定一周一本书的计划，到现在也读了43本。</p>
+<p>这一年，一次偶然的机会从微信公众号，关注了好几个个人公众号，从中获取一些知识，让自己开始思考。</p>
+<p>这一年，我从一家企业跳到另外一家公司，才知道选择的时候应该主动些，而不应该完全被动（这是一大难题）。<br>现在开始慢慢说说这么几件事情。</p>
+<h5 id="读书"><a href="#读书" class="headerlink" title="读书"></a>读书</h5><p>虽然说前些年也陆陆续续的读些书，但是从来没有像今年这样作计划的读书。2015年的1月到3月，陆陆续续的读些书，但是并不多，家中也积累了些买了却没有看过的书。4月份的一天，突然想着我应该一周看那么至少一本才好。于是，翻开收藏过的微信公众号的一篇文章，是说一周读一本书的，开始读的时候计划这一次大概读个多少页，然后一周到了，这本书就看完了。</p>
+<p>就这样莫名其妙的开始，一本本的开始读。在执行这么个计划的过程中，如果看到自己喜欢看的书，读起来倒是不费事。应该是说相当的轻松，没几天也就读完了。可遇到不是自己特别感兴趣的，一般需要一周多点的时间才能够读完。有时候，也会忘记读书，可是当自己看到自己的Kindle或者纸质书在包里时，总会不自觉的想起来，于是拿着它们开始读。读着读着，也就读进去了，偶尔被小感动下，偶尔会心的一笑。接着，这周也完成了自己的计划。然后就开始为下周的计划，寻找书籍，或电子书，或纸质书。周而复始的，这计划也就持续着。</p>
+<p>回想起来，这次的成功主要来源于以下两点原因：</p>
+<ol>
+<li>一个简单的开始，我决定读书的时候就是翻了翻微信就决定了，其实应该还能有个更简单的开始。</li>
+<li>每读一本书的时候，有一个记录，然后一周一周的都能看到自己在往前。等哪天想放弃的时候，拿出来看看自己都坚持这么长时间了，放弃多可惜啊。于是，又得以新的开始。</li>
+</ol>
+<p>为什么要特意总结这么两条呢？只是想告诉自己，在将来的日子如果想做什么事情的时候，可以考虑这个方法论。即让事物有个简单的开始，并能够分阶段的成果展示。</p>
+<h5 id="公众号"><a href="#公众号" class="headerlink" title="公众号"></a>公众号</h5><p>我不知什么时候开始相信这是个最好的时代。尤其是在关注了一些个人微信公众号更是如此。这些公众号，多半都与计算机有关系。可是从他们身上不仅看到了技术的精湛，还有文学功底以及精神的丰富。每天或者说是偶尔看到他们的文章，都让人觉得值得学习。这些人并不像社会中的商界大亨或者技术精英让人感到遥远，而是感觉他们就在身边，感觉自己某一天也能够在技术略有小成，在思想上日渐成熟（也许，这两点都是幻觉）。不过，我真的这么觉得我是能够做到的，即使是幻觉，也觉得足够幸福。</p>
+<p>在看到这些公众号之前，我还为自己有一点点看书的习惯而感到高兴，感觉自己并不是一个只会写代码的程序员。看完这些人的分享之后，我才发现自己不仅代码写的不怎样，思想与文学也没有什么值得称赞的地方。真可谓是井底之蛙，幸好这个井没有那么深，我及时跳出来了。</p>
+<p>所以说，我觉得现在是最好的时代，牛人就在你身边，每天都可以与其交流（虽然只是单方面的）。我觉得现在是个最好的时代，还有个原因是云计算逐渐成熟，已经有好几个不错的云服务，可以基于上面做些事情，而不用自己去搭建基础设施就可以尝试一些想法（目前，我还没有用云做什么事情）。总之一句话，现在这个时代使得许多事情能够简单的开始，从而能让想干事请的人看到一些成果。</p>
+<h5 id="换工作"><a href="#换工作" class="headerlink" title="换工作"></a>换工作</h5><p>这次换工作并不算成功，起初是有点投机的感觉，只是后面知道投机是没有可能获得什么的，结果还是得踏踏实实的工作。这里面的具体情况得在以后恰当的时候说说，这里就姑且不说这些，只是简单的说说我在现在这家公司收获了什么。</p>
+<ol>
+<li>再次次验证简单的开始可以做些事情，在这家公司之前我并没有接触Android开发。在这里不得不从第一个控件，第一个界面开始，最终也完成了一个APP，前前后后的时间并不长，可以参考这篇<a href="../22/android-start.html">博文</a>。</li>
+<li>在这里我开始将自己的抱怨放在一边，踏踏实实的想问题，然后解决一些问题。帮助同事们分析一些问题，分析下来，原来这根本不是问题，同时也多了点耐心。</li>
+<li>想解决问题的时候，一定不要互相谴责，更不能发脾气，这些对解决问题没什么帮助，反而会使得问题恶化。而应该把问题分析清楚，一步步来，最终不仅问题解决了，也不伤和气，而且还能够让人感觉你在讲道理。</li>
+</ol>
+<p>收获多多少少还是有点的，难受的事情也不少(这就是说，对于选择应该主动的原因)，算了不说了，在自己心里慢慢消化吧。</p>
+<h5 id="展望一下2016"><a href="#展望一下2016" class="headerlink" title="展望一下2016"></a>展望一下2016</h5><p>2015终将结束，迎来的是2016,对未来我总是期待着。</p>
+<p>我期待着2016我能够耐心些，能够做成一些事情;多思考，相信着积累的力量，相信美好的事情终将会发生。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[半马与全马有什么不同]]></title>
+      <url>http://towerking.github.io/2015/12/30/marathon/</url>
+      <content type="html"><![CDATA[<h5 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h5><p>这篇文章本来计划昨天写的。而昨天有老罗的锤子新品发布会，就将看这发布会当做首要任务来着。看完之后，一看时间还比较早的时候，想着要不现在写的时候，有一朋友来家里聊天，这一聊时间就过去了。就这样，这篇博文就成今天要写的。<br>这是不是说明我自己的意志力与执行力不够呢？</p>
+<p>还有就是今天的工作效率也不怎么样，就是没有了干活的意愿，前段时间的持续耐力不知怎么就这么消失了。导致，今天的生产很低的。好了，唠叨说完，开始进入正题。</p>
+<h5 id="回归正题"><a href="#回归正题" class="headerlink" title="回归正题"></a>回归正题</h5><p>我之前写过一篇博文是说<a href="../27/run.html">我跑步也有六、七年</a>。从这文章中我简单的提了一句，我有参加学院的5公里长跑，并取了不错的名次。关键是，自己出来实习或者工作的时候，依然持续着一周几次的跑步，心情好的时候多跑跑，心情不太好的时候就少跑跑。</p>
+<p>就这样一天天的上着班，一次偶然的机会听到上海有马拉松比赛。然后我就开始慢慢的关注马拉松，这么几年有参加过几次比赛。半程的也有，全程的也有。</p>
+<p>当时报名的时候，看见全程的42公里完全不敢尝试，所以就小心谨慎的报名半程的，想试试自己是否能够跑的下来。现在回想，第一次报名半程马拉松，心里没什么底，不知道自己能否跑下来，跑的过程中会不会出现什么意料之外的事情，毕竟平时并没有跑过这么长的距离。</p>
+<p>没底归没底，也没有对自己造成太大的心里负担，平时还是按着原来的节奏跑着，一天跑个几公里。然后，就有那么一天，跑下平日的量时，感觉特别好，又多加了好几倍，感觉依然良好。本还想继续，只是时间不早，就回去了，然后我知道半程马拉松没有什么好担心的。再想想，比赛那天有三万人，就完全放心了，只要平时正常运动，等着比赛的到来。</p>
+<p>比赛那天，结果和自己想象的差不多，跑步的人真的很多，那是我生平第一次见这么多人跑步，真的很壮观。后面几次参加，依然有这种感觉。一声枪响，比赛正式开始，起初因为人太多提不起速，就大家一起跑着，没过一会儿就到了5公里，然后10公里。之后，该提速的都已经提速，又由于5公里、10公里的到来，参加迷你马拉松的人员基本都已经到目的地。这么个时候，跑步就相对宽松，跑的快的跑的慢的都不在一条线上。虽然这个时候还有好多人在一起跑，也基本和平时自己一个人差不多，只是偶尔被人超，又偶尔超那么一两人。我就是在这种节奏中，结束了自己的第一次半程马拉松赛，感觉还是挺好的，不怎么累，就是脚有点酸痛，后面几天就更酸痛了，这个暂且不提。</p>
+<p>半程马拉松下来，感觉压力并不大，想着全程应该也还好。然后第二年就参加全程马拉松赛（其实是半程马拉松赛的名额已满），也没有感觉太大的忐忑，平时依然没有经过特别训练，还是正常运动，等着比赛的开始。</p>
+<p>全程的前半段和之前没太大的差别，只是到了25公里之后感觉有点吃力，最后挺到30公里的时候，就感觉脚已经不是自己的脚，真的真的很想坐下来休息。说的直白点就是全程的痛过从30公里开始，一直到40公里才算结束。那后面2点几公里呢？也许你会说是放弃了，其实没有的，不知为什么后面这点距离，居然是用跑结束的。那从30公里到40公里的这10公里中，我都在想些什么呢？</p>
+<p>30公里的时候，我的脚底板开始疼，小腿和大腿都比较酸，跑不动了，我就开始走了。如果我还能跑的话，其实痛苦的时间也不会太长，问题是我只能走，导致痛过的时间明显就变长。在上海马拉松的全程赛中，其路线并不是一直往前往前，而是有绕道的，中间虽然有隔代，也有人监管，这是这个时候相对已经很松了。我在这边走的时候，其实是30公里多点，我就看到对面的37公里的牌子，那个时候我是多么的想穿过去，提前结束我这痛苦的旅程。如我写在“写在前面”的语言一样，我的执行力不够啊，所以并没有行动，只是告诉自己再走走，实在不行的时候再穿吧。只是走着走着已经没有机会了，我已经走到另一边，没有办法再穿。这个是不是说明机不可失呢？</p>
+<p>就这样我才发现我只走了5公里左右，才发现5公里真的很长。没办法，我得继续走着，无论如何也得在关门的时候完成我的赛事。只是在这后公里的过程中，我不停的看到马路旁边有居民骑着电动车去往他们的目的地，而且我们方向一致，路线也是样的，只不过一个在赛道，一个不在赛道而已。我那时就想着，要是现在能够坐着电瓶车过去就好了。想归想，腿似乎并没有听大脑的指挥，依然是自顾自的往前走着。在这漫漫的5公里，我自己都不知道如何完成的，因为大脑老是想着坐电瓶车，感觉那样会很爽，会提前完成这痛苦的旅程，可无论怎么想，腿只是往前走，完全不顾你的感受。</p>
+<p>最后，终于熬到了40多公里，大脑这个时候开始兴奋了，腿似乎也感觉舒服点（其实都是幻觉）。于是，又开始跑起来，最后一小段还加了点速，最终从开始到结束用了5小时左右的时间完成。虽然，并不是很快，但是真的完成了，依然有成就感;之前虽然，忍受着痛过，此时此刻依然感觉无比的喜悦。完赛后的几天，大腿的酸痛就更加严重了，每次坐下起来或者上下楼梯都感觉是中煎熬。</p>
+<p>这次虽然如此难受，这个比赛的来年我又参加一次（2014年赛事），感受和这次差不多，思想斗争也没怎么变化。当时有小伙伴问明明知道不好受，为什么还要去呢？这个我当时的回答是：虽然痛苦，但总感觉这个每年应该经历至少那么一回。然而今年（2015年）我并有机会感受这酸爽的感觉，原因是报名的人太多，我没有被抽中。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[一个低级错误分析解决过程]]></title>
+      <url>http://towerking.github.io/2015/12/28/user-exception/</url>
+      <content type="html"><![CDATA[<p>昨天简单记叙了我六、七年的跑步这件事情，本来今天想写写我跑半程与全程的感受与些许想法。但是，今天在写代码的时候出现一个低级错误，而我解决这个错误却是绕了一圈才解决的。这种事情写代码的时候时不时会发生一次，原来没有记叙的习惯，现在打算养成这么个习惯，所以临时决定写写这次错误的发生与解决，让自己回想回想。</p>
+<h5 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h5><p>这个错误的案例背景是我用WebService去调用阿里百川的OpenIM的SDK，达到阿里百川的用户信息能够与我们平台的用户信息能够得到同步，如昵称、头像等。</p>
+<h5 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h5><p>在写WebService之前，我对其API封装了一层Service，并用单元测试对其进行测试（其实，我现在还没有很好的养成写单元测试的习惯）。测试了一组数据，其结果都和预期一样，证明咱写的这个服务是没有什么问题的，可以大胆的使用。</p>
+<p>然后，我就开始写WebService，其实也就是在封装一下，本以为完成就能够解决问题。在满怀希望看结果的时候，上帝就给你开个小玩笑，然后WebService返回了下面的信息：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;soapenv:Envelope&gt;&lt;soapenv:Body&gt;</div><div class="line">    &lt;soapenv:Fault&gt;</div><div class="line">        &lt;faultcode&gt;soapenv:Server.userException&lt;/faultcode&gt;</div><div class="line">        &lt;faultstring&gt;java.lang.reflect.UndeclaredThrowableException&lt;/faultstring&gt;</div><div class="line">        &lt;detail&gt;&lt;ns1:hostname&gt;hostname&lt;/ns1:hostname&gt;&lt;/detail&gt;</div><div class="line">    &lt;/soapenv:Fault&gt;</div><div class="line">&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</div></pre></td></tr></table></figure>
+<p>看到这个信息，我不知道为什么本能的以为是OpenIM SDK有问题（在调用第三方库的时候，这些第三方库总是被我怀疑，为什么会这样，为什么会这样，算了，先不想了）。于是，我就在想是不是这个SDK与Web Service有什么冲突之类的（毫无根据）。<br>怀疑归怀疑，还得看数据信息不是？ 在这次调用的时候，我其实是写了三个服务的，在这个服务没有通过之后，再去测试另外两个服务，结果发现运行的好好的。这时，我再结合单元测试是OK这一结果，彻底否定了服务有问题这一想法。想着，一定是代码哪里不小心出了问题。</p>
+<p>这时，再看Web Service反馈的信息，说是userException，说实话这个我不知道是什么异常，但是后面的信息还是很醒目的<strong>UndeclaredThrowableException</strong>。就这么一句，我意识到我的代码有个地方有个未知异常没有捕获。于是再看代码，再看打印日志的时候，发现压根就没有进入我封装的OpenIM SDK服务内，在调用服务之前的代码有一段代码是判断一个字符串是否合规的if语句。这个时候，一看就能明白，这个字符串忘记判断是否为空了，加上这个判断，果然就没有问题，服务也正常被调用。虽然问题找到了，还是忍不住说了句：我x，居然出现这么个低级错误。</p>
+<h5 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h5><p>在解决这个错误之后，我想起前段时间参加的技术沙龙有讨论类型安全问题，这个其实多少也算这么个分支。又想想平时写代码，总喜欢看运行结果。好多代码边界问题，异常问题都容易被我忽略，所以时不时出现一下冷不防的错误，需要花时间去解决。</p>
+<p>还有就是写代码总是不太习惯在关键地方打印日志(上文说的看日志，是后面才加的，开始并没有)，做些条件判断，总感觉程序能够在正确的环境做正确的事情，出意料之中的结果。可这显然是不太可能的，关于这点得改改，不能偷懒。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[从开始跑步到现在，断断续续的也有六、七年了]]></title>
+      <url>http://towerking.github.io/2015/12/27/run/</url>
+      <content type="html"><![CDATA[<p>这几年，跑步不知为什么一下子流行起来，无数人在坚持夜跑，又不知道有多少人开始讨论跑步减肥的问题。也许这些现象，在很早以前就有，只是我现在才真正感受出来。那我就姑且认为最近几年比较流行吧。对于跑步的流行，尤其是长跑的流行，从我这几年报名上海马拉松的情况可略见一斑。</p>
+<p>我记得在我来上海实习的那一年听说上海有马拉松比赛后，在第二年(应该是2012年)我就有关注这个赛事，那时我准备报名上海半程马拉松赛。等到报名时间的时候，我印象中我还在老家（当时国庆放假，就在家玩了几天），等我回到上海的时候，马拉松报名应该开始了几天，可是那个时候报名还是相当轻松的，点击几下鼠标，填点资料就完成，然后就是等着赛事的开始。</p>
+<p>这是2012年的赛事，看上去马拉松报名还是简单不过的。可是等2013年的时候，我当天去报名半程马拉松的时候，居然名额都满了，无奈我只能参加全程马拉松（一直想跑，只是没有勇气，这下到直接开始体验），不过对自己而言倒是一个不错的体验。2014年就更夸张了，报名全程马拉松都是得抢啊，用个形象点的类比就是12306刚出网站时买春运火车票那样。如果手慢了一步，好像就离赛事擦肩而过。而春运火车票一般都有无数的黄牛在和你抢票，而马拉松比赛我想应该是没有黄牛和你抢票的，这个得实名还得自己去跑，如果真有黄牛，那也是喜欢马拉松的黄牛。等到今年2015年，报名很简单的，一会儿就报好，只是后面报完名得来个抽签，这样就刷下无数人。而我运气一直都不怎么好，我也就被刷下来，今年就没有参加上海马拉松比赛。</p>
+<p>虽然参加了几次马拉松赛，但是并没有做过什么特别训练，只是平时正常的跑，然后时间到了就去参赛。虽然说没有针对性的训练，平时跑步的积累还是有的。我记得，在大一的时候，参加院运动会的1500米的长跑，当时跑完可是上气不接下气的，到后期根本跑不动，无奈最后剩下的距离只能慢慢走到终点，就这样最后还是累的不行，说话都要缓一缓。就这么个体质，我当时就觉得长跑根本不是人跑的，别说5公里长跑想都不敢想（那是我还没有听说马拉松，学院还有个男子5000米赛事）。</p>
+<p>也许，你会觉得我在这么一次体验之后，就痛定思痛得决定每天训练跑步，要不然最后怎么能够参加马拉松。可事实告诉我，我并没有那么上进，回去休息好之后，就把这件事情给忘记了。只是有一天偶然的情况下，我知道大学里另外一个寝室有三个小伙伴每天早上会起来跑步。然后，我就去和他们一起跑。也许，厉害的人都是自己做决定做某些事情，然后一直坚持下去，最后成了。而像我这种不怎么思进取的人，就只能从这个偶然的机会开始一件事情，庆幸的是我也坚持下来了。</p>
+<p>当时跑步的时候，开始早上起来跑步的人有4个，过了一段只剩下2个，最后就剩下我1个早上起来跑步。剩下我一个人的时候，晨跑我也没有坚持多长时间，但是我把跑步的时间变成晚上了，这样显然比早上起来跑步舒服多了（早上还是喜欢多睡会儿）。后来每次晚上跑步的时候，偶尔会想起赵本山与宋丹丹春晚小品有关火炬手的故事。黑土大爷说：我陪着她练，最后她被练下去了，我练起来了。每每想到这，我笑笑就又继续我一个人的跑步。</p>
+<p>我现在特别喜欢一个人跑步，因为非常自由，想怎么跑就怎么跑，想什么时候跑就什么时候跑。可是当时，我还是喜欢拉个小伙伴的。在我坚持一个人跑的过程中，去看看有谁愿意晚上跑，可是陪我晚上跑的，也就开始几个小伙伴中的一位坚持的时间比较长。本来这事就挺正常，也没什么好说的。只是当时，本来一个人跑的，后来多了个小伙伴，就开心啊，跑起来也轻松，还有说话的好开心啊。如果一切都这样发展下去，那是多么美好。问题就出在，当你开始习惯有个小伙伴的时候，突然有一天，你叫小伙伴去跑，他告诉你不想去了，本来兴致勃勃的，一下子我也不想去。结果，就休息一天，有时候还得休息好几天。</p>
+<p>调整几天，我感觉这样不行，再叫不去，我又自己去跑了。过段时间，偶尔又有人想加入，和我一起跑。然后过段时间又出现原来的情况，就这样反反复复几次。我就决定不在要小伙伴，如果想加入，我和你说一声，来就来，不来我就自己去了。说这些，不是说我不跑的时候，都是别人不跑导致的。只是，有时候自己不想跑的时候，有个伴鼓励下，然后也就可以开始了。结果有小伙伴出现之后，我不想跑的时候导致没有跑成;小伙伴不想跑的时候，也影响到没有跑成。</p>
+<p>常常听人说，两个人一起做一件事情，能够坚持的更久点。从跑步这件事情来看，我是没有这种感觉的，我看还是一个人持续一件事情比较容易些。所以现在我跑步都是自己一个人跑步，有人跟我说一起跑吧，我也告诉他我不喜欢和人一起跑，想跑的话，大家各自跑还自由些。不过让我跟你说一下，还是可以的。只是，我一般不再抱有能够一起跑好几天的希望。所以，就是有伴的时候也开心，没伴的时候也能够自己一个人跑。</p>
+<p>大学里跑步养成了一种习惯，在大三那一年参加5公里比赛，顺利的得到了院运动会的第一名（从这点看，大学好像有点成长）。这个习惯，从大学出来，一直陪伴这我工作这几年，虽然现在跑步的频率没有大学那个时候那么频繁，但是总体而言一直有跑步的习惯。就这么个习惯，也是有好处的，如我坚持做其他运动的时候也能够很好的坚持。而不需要下什么很大的决心，也不需要什么APP与社交，想到了开始做就好了，所以现在也不喜欢跑步的时候带着个手机去记公里数（我尝试过，感觉是种累赘，还是空手跑比较舒服）。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[从Git最佳实践中获得的思考]]></title>
+      <url>http://towerking.github.io/2015/12/26/git/</url>
+      <content type="html"><![CDATA[<p>搞计算机开发的，应该都知道Git是个非常好用的代码管理工具。在这篇文章中，我并不是想去阐述其技术有多么优秀，这个在网上随便搜索一下，就能找到一大片，而且其官网上还有一本详尽的书籍进行说明。这篇只是说说我在看完<a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank" rel="external">Git分支最佳实践</a>之后以及习得其技能后的一些感受。</p>
+<p>在用Git作为代码管理器之前，由于是用Visual Studio进行项目开发，用到的工具是tfs。后来开始用Java写程序，代码管理器也就变成Git。当时就想着写项目，在了解Git的基本使用之后，就没有管它到底有多优秀，基本就和用tfs差不多(签入、签出与合并)。在这个过程中，就已经看到过Git最佳实践，花了点时间看，但是并没有深入研究，也就知道个概念好像是说Git很厉害的样子，然后这么好的东西就沉底不见了。</p>
+<p>直到前段时间我需要为产品进行迭代开发时，想着如果进行一个版本的功能开发，第一版本有个紧急Bug需要修复，该如何弄？此时，脑中想起之前看过的<a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank" rel="external">Git分支最佳实践</a>，我又再次把它翻出来看一遍，并仔细从头到尾理解一遍，问自己为什么需要这个分支，不要这个分支可不可行，什么时候应该使用这些分支等等问题。虽然，博客中都写的比较清楚，但是如果自己没有好好的理解的话，可能在执行的过程中就容易迷惑，也容易出错。等我把我自己的问题答案找到后，并在自己脑中想了多个场景，看看应该如何建分支之后，发现一切都浮出水面。按着这个博客进行实践真的可行，后来我在自己的项目中并实践一段时间过后，发现真的很好用。</p>
+<p>当时理解完，和其他同事进行分享，也能够很把问题讲清楚同时解答一些不理解的地方。简单的理解可以注意以下几点：</p>
+<ul>
+<li><p>master与develop分支是永久存在的分支，master分支永远是存放稳定版本的代码，develop分支是正在开发功能的分支;</p>
+</li>
+<li><p>release分支是下一个版本需要的分支，hotfix分支是修复bug分支，这两个分支都是有生命周期的，用完就能删除。在这两个分支功能开发完毕后，都需要合并master与develop分支，然后就可以删除。</p>
+</li>
+<li><p>还有个feature分支，这就是个临时分支，只能存在于本地的一个分支，是用来研究临时性功能的分支。如果这功能最终被采纳，就可以合并到develop分支，否则直接删除就好，接着干之前的活就好。</p>
+</li>
+</ul>
+<p>这只是个粗略的描述，并不详尽，具体的可以参考这个网址<a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank" rel="external">Git分支最佳实践</a>，它有详细介绍。在我敲出这些描述的时候，脑子中已经清晰的走了好几回这个实践，不得不说真的很好用。</p>
+<p>===========================================</p>
+<p>那我从中获得了什么思考呢？</p>
+<p>对于一个知识点，不要看看就告诉自己，我又Get一个新技能，然后就去获取下一个技能。否则就容易出现白岩松在《白说》书中提到的：以为看过了，其实是错过的情况。我很庆幸，这么好的一个实践，我看过了，还真的获得了。</p>
+<p>所以说，如果在看到一个新技能，如果觉得有必要，就要尽自己最大的努力去理解，多问一些问题帮助自己理解直到自己真的能够理解为止。这不仅能够使得自己真正掌握一个技能，还能够帮助自己节约不少时间的（想想，如果今天看了没理解，等要用的时候是不是又得从来一遍呢？）。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[关于计划与规则，我的思考]]></title>
+      <url>http://towerking.github.io/2015/12/25/plan-rule/</url>
+      <content type="html"><![CDATA[<h1 id="关于计划"><a href="#关于计划" class="headerlink" title="关于计划"></a>关于计划</h1><p>我工作三年多，如果算上实习应该有四年多。在这段时间中，我在不同类型的企业中干过，期间还自己在家中做过几个小项目。发现每个公司都有自己公司的规则，项目也有相应的计划。而在这些计划与规则中，有的真的是践行了，有的则形同虚设。</p>
+<p>在第一家公司做了大概两年（包括实习一年），真正经历的项目就两，没在这两项目的时候，基本就是做些边缘的事情，做些简单的研究。</p>
+<p>这两个项目都是和企业相关的，第一个项目是在我来之前就已经谈好的，我在这个项目中主要负责数据上的同步，确保数据正确就OK。这个项目还没有结束，就来了第二个项目，我从这个项目中剥离出来。在交接好之后，我就开始负责这第二个项目。</p>
+<p>后来发现这第二个项目和需求是有冲突的，有些功能复杂化，有些功能简单化。总体而言，应该比需求提到的东西工作量要大点。可是，项目在实施过程中，并没有改变计划，而是一味的直接做，前期基本还能跟上计划。可做到后面，尤其是用户验收过程中，有些东西需要修改，有些东西需要增加以及还有未完成的功能。就这样滚雪球般的添加了不少工作量，现实如此，也没有调整计划，可想而知项目到后期就不可控了，连什么时候能够真正的完成都不知道。这个时候，原来的计划就真的被架空了，完全起不到作用。</p>
+<p>以至于，后期就是把该做的该改的全部完成，以至于两个月的项目变成了六个月。项目延期如此严重，回想起来可能有多方面的原因如管理，沟通以及技术本身的不完善都有可能。可是，我想如果计划能够及时做到调整，也许两个月的项目还是会延期，但有可能会变成三个月。为什么这么说呢，因为在六个月的项目中，并不是完全满负荷的工作的。只是因为没有个明确的计划，每次猛赶猛赶的完成一个功能，然后就乘机休息一会儿。等验收发现问题的时候，就再来这么一次循环。从而浪费不少时间，公司也没有从这个项目中赚多少钱。</p>
+<p>我的感想是：计划怎么的都得执行的，但是这个计划不应该是从初始就固定不变的，因为可能由于诸多原因导致这个计划本身并不合理。而应该根据事情的发展，人员的变更，进行动态调节，也确保计划确实可行，隔一段时间进行验收，这样才能够比较长久的完成计划，也能够更好的在规定时间完成功能。计划做出来，然后大家跟着执行，并且都完成，这个计划才有效。大家看着这个能完成，结果真如此，就容易进入良性循环;可是，如果计划一出来，就不可完成，还不做及时的调整，计划成为空之后，就进入恶性循环，截止日期就摇摇而无期。</p>
+<p>后面，经历了一家公司，采用敏捷模式，每三个星期一个目标，一次调整，感觉就真的不一样。</p>
+<p>=====================================================</p>
+<h1 id="关于规则"><a href="#关于规则" class="headerlink" title="关于规则"></a>关于规则</h1><p>无规矩不成方圆，家有家法，国有国规。这些说法，都是指行事得有规则，否则就容易乱套。可问题是规则如果出来没有执行，那就失去其意义。</p>
+<p>对于公司，规定早晚班时间，可是由于没有任何奖惩措施。导致偶尔有人迟到一会儿，结果没什么事情，连个说的人都没有。迟到一会儿其实也没有必要追究，只是它引发的问题不容小觑。经过一段时间后，迟到的人越来越多，迟到的时间也越来越长。这样长期以往，上班时间的规定就失效。</p>
+<p>也许我喜欢把问题放大，因为我觉得一个规则被打破之后，对于其他的规则也会有影响，导致执行力下降。</p>
+<p>前段时间，看唐浩明的《曾国藩》，里面有个故事是说，曾国藩初期训练湘勇时，由于训练条件艰苦，常常一个营的士兵都无法到齐。曾国藩为了能够严于军纪，自己以身作则，并不惜杀一严重违反规则的将领，从此军纪便好很多。</p>
+<p>我不是说，什么规则出来都应该严惩，如杀头这类的，更何况这个在法律上是不允许的。我只是想表达一个规则出来，一定得执行，并有相应的约束条件，否则容易忘记。这对这约束条件，还应该为其他规则配套一些奖惩措施，而且奖惩应该多余惩罚。为什么这么说呢？原因是，这样可以比较清晰的告诉大家我们做这些并不是为了惩罚谁，而是能够更好的成长，更好的发展。</p>
+<p>而对于有些规则，如果大家没执行，也可以在想出约束条件之前，想想是不是规则本身不合理，导致现阶段本身无法执行。如果是这样的话，有约束条件也没用，还有可能给人一种不近人情的感觉。此时，应该考虑换一个更加合理的规则来解决自己想解决的问题。</p>
+<p>还拿这个早上上班时间的事情说事。若一个公司9点开始上班，可是有些人确实住的远，并且高峰期拥堵不堪，导致路上的时间无限拉长，如果要准时赶到9点，也许得起的很早才行。也有可能家里有小孩需要照顾等等。针对这些情况，与其制定一些约束，还不如改改规则。如工作时间可以随机调控，以任务为导向，每周验收个标准;或者允许大家每周有那么几天时间可以在家办公，最终能完成任务，能为公司创造价值就好。（没办法，我才疏学浅，只能用这么个简单的例子来来回回的说）</p>
+<p>所以说，规则制定应该要合理;在合理的情况下，再给出相应的约束条件，让大家去执行。总之大家能够践行的规则，才是好规则，计划也是这样。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[一点点开始]]></title>
+      <url>http://towerking.github.io/2015/12/23/a-bit-start/</url>
+      <content type="html"><![CDATA[<p>今天，打开这个学习笔记网站，准备写点什么的时候。却不知道如何下手，说写技术类的文章，没有进行很好的梳理写不出来，最后只能草草的整理下今天开发中<a href="android-issues.html">遇到的问题</a>。</p>
+<p>技术写不出来，我就想着要不写写平时自己的胡思乱想也好。本来在白天闲暇时间想好的东西，等着这个时候却怎么也会议不起来。我想写篇随意的网志怎么这么困难呢？也不知道那些作家，网络中的笔者是如何坚持几十万、几十万字的写。</p>
+<p>本来，都这么困难，就应该先关着，干点其他事情去的，而事实我却在这里一个字一个字的敲着。因为按着过往经验，如果刚开始决定做一件事情的时候，没有开一个好头，后面基本就会不了了之。所以，为了这件事情能够稍微坚持的时间长一点，我必须在刚开始的一段不短的时间内，不断的打开面对着白色的记事本，有一句没一句的敲着。</p>
+<p>万事开头难，此时此刻的我也许无法敲出有意思的文字，更别说有深度的文字。只是，我告诉自己今天从这一点点的开始，也许就能够拥有在未来的某天敲出稍微有点意思的文字的机会;如果没有这个开始，那么连个机会都没有。</p>
+<blockquote>
+<p>祝我好运</p>
+</blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[安卓开发问题碎片汇总]]></title>
+      <url>http://towerking.github.io/2015/12/23/android-issues/</url>
+      <content type="html"><![CDATA[<p>在整合阿里百川时，遇到的两个问题，通过google找到了解决方案。<br>1.第一个问题</p>
+<blockquote>
+<p>Error:Execution failed for task ‘:app:dexDebug’.<br>com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process ‘command ‘/usr/java/jdk1.7.0_17/bin/java’’ finished with non-zero exit value 2</p>
+</blockquote>
+<p> 解决方法是：<br> <code><pre>defaultConfig { multiDexEnabled true }</pre></code></p>
+<p>参考网址 <a href="http://stackoverflow.com/questions/28917696/errorexecution-failed-for-task-appdexdebug-com-android-ide-common-process" target="_blank" rel="external">stackoverflow</a></p>
+<p>2.第二个问题</p>
+<blockquote>
+<p>Error:Execution failed for task ‘:app:packageAllDebugClassesForMultiDex’.<br>java.util.zip.ZipException: duplicate entry: com/ta/utdid2/device/UTDevice.class</p>
+</blockquote>
+<p><strong>解决方法</strong>：从提示就能看明白是有两个相同的类.经调查，我将其中一个删除了，暂时没有什么问题。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[我是如何学会Android开发的]]></title>
+      <url>http://towerking.github.io/2015/12/22/android-start/</url>
+      <content type="html"><![CDATA[<p>开始Android的开发，可以说是一种巧合。由于自己比较懒的，并没有很主动的去学习一门新语言或者新的开发平台。按着这个逻辑我应该会一直从事Sharepoint或者C#.net的开发，现在家里还有关于它们的书。</p>
+<p>可说来也奇怪，在2014年12月5日左右，我本来在一家公司搞C#的，结果到另一家公司去弄Java去了，弄了个半年。又因某些原因，决定2105年6月1日去开发后台与Android APP。</p>
+<p>在2015.6.1之前，有一段时间进行工作交接。我想着，要去弄个新平台，自己又不懂，总该学习一下下的。于是，网上找了一些关于Android的相关书籍，最后决定购买郭霖大神的《第一行代码》回来。</p>
+<p>在此，按着我的理想状态，应该是每天下班回来，翻开书看看，然后再敲敲代码，最后点击一下运行按钮，看着APP在自己的手机跑出个<code>Hello world</code>，再对着手机傻傻的乐。可实际情况呢，书到了，翻开目录看看，了解了一些简单的概念，如什么是Activity，什么是Fragment之类的(往往第二天就会忘记的)。开始呢，还很有耐心的敲敲，看看客户端的日志输出。可后来出现了个比较复杂的界面，一看XML文件就好几页，就没有心情再敲了。</p>
+<p>也就是这个时候，这本书就不怎么翻了，基本就是放在那里睡觉。最后终于不得不开始编写Android程序，拿到第一个界面，就硬着头皮把工程建好，然后开始写XML文件。为了达到和Demo一样的效果，一个个属性慢慢的换，一个个dp慢慢的调，就这样好几个小时过去，终于完成了第一个让自己的页面。再看下代码，哇，也有好几百行了（后来发现，好多属性样式其实可以提出来的，根本不用这么复杂），才知道开始写好几页的代码并没那么可怕（当时被吓到，想想只是懒惰的借口）。</p>
+<p>这样一个个页面的写，花了大概一星期左右，基本界面就知道怎么弄比较好了。接着，对接后台就更简单了，按着一定的模式每个页面开始有着比较真实的数据，最后APP也就活了。</p>
+<p>花了大概两个月的时间（包括后台与APP，这些都是两个人一起做的，根据功能进行分配），第一版本终于出来了。再这期间，并没有一直平平稳稳，遇到一些乱七八糟的问题，如内存泄露之类的，就通过google或者百度一些，最终也就找到了解决方案。不得不说网络真是个好东西，有问题基本都能够解决。什么？你问我如果没有网络怎么办，那我就可能一行代码也写不来了，衰：( 。所以呢，如果你不允许我用网络，也就别找我去写程序了，省的大家大眼瞪小眼。</p>
+<p>简单的总结下学习方法：</p>
+<ol>
+<li>买本入门书，简单浏览下(如果能够潜心研究就更好了，我想这样也许会离大牛更近一点)，知道是怎么回事，为后来遇到问题知道在哪里找;</li>
+<li>像我这种懒人，完全照着书敲可能就不太情愿，那就实现一个自己想实现的东西，在纸上画出来，然后去实现就好（不过，我显然是被工作给逼得）;</li>
+<li>遇到问题了，别死磕，多用用google，总能找到问题的解决方案。</li>
+</ol>
+]]></content>
+    </entry>
+    
+  
+  
+</search>
