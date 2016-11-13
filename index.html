@@ -1,740 +1,275 @@
-<!doctype html>
-
-
-
-  
-
-
-<html class="theme-next pisces use-motion">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
+  <meta charset="utf-8">
   
-  
-  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
-
-
-
-
-
-
-<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-
-
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
-
-
-
-
-
-
-<meta property="og:type" content="website">
+  <title>学习笔记</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
 <meta property="og:title" content="学习笔记">
 <meta property="og:url" content="http://towerking.github.io/index.html">
 <meta property="og:site_name" content="学习笔记">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="学习笔记">
+  
+    <link rel="alternate" href="/atom.xml" title="学习笔记" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
 
-
-
-<script type="text/javascript" id="hexo.configuration">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    scheme: 'Pisces',
-    sidebar: {"position":"left","display":"post"},
-    fancybox: true,
-    motion: true,
-    duoshuo: {
-      userId: 0,
-      author: '博主'
-    }
-  };
-</script>
-
-
-
-
-  <link rel="canonical" href="http://towerking.github.io/"/>
-
-  <title> 学习笔记 </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
-  
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
-  
-
-  <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <span class="site-title">学习笔记</span>
-      <span class="logo-line-after"><i></i></span>
-    </a>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">学习笔记</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">学习不过是一种生活方式</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://towerking.github.io"></form>
+      </div>
+    </div>
   </div>
-  <p class="site-subtitle">学习不过是一种生活方式</p>
-</div>
-
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
-</div>
-
-<nav class="site-nav">
+</header>
+      <div class="outer">
+        <section id="main">
   
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-navigation">
-          <a href="/navigation" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-link"></i> <br />
-            
-            导航
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-books">
-          <a href="/books" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-book"></i> <br />
-            
-            书单
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-commonweal">
-          <a href="/404.html" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
-            
-            公益
-          </a>
-        </li>
-      
-
-      
-        <li class="menu-item menu-item-search">
-          
-            <a href="#" class="popup-trigger">
-          
-            
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
-            
-            搜索
-          </a>
-        </li>
-      
-    </ul>
-  
-
-  
-    <div class="site-search">
-      
-  <div class="popup">
- <span class="search-icon fa fa-search"></span>
- <input type="text" id="local-search-input">
- <div id="local-search-result"></div>
- <span class="popup-btn-close">close</span>
-</div>
-
-
-    </div>
-  
-</nav>
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
+    <article id="post-学习新东西一定要快" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/11/12/学习新东西一定要快/" class="article-date">
+  <time datetime="2016-11-12T08:10:00.000Z" itemprop="datePublished">2016-11-12</time>
+</a>
     
-      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/学习/">学习</a>
+  </div>
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
+  </div>
+  <div class="article-inner">
     
-      <header class="post-header">
-
+    
+      <header class="article-header">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/11/12/学习新东西一定要快/" itemprop="url">
-                  学习的套路
-                </a>
-              
-            
-          </h1>
-        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/11/12/学习新东西一定要快/">学习的套路</a>
+    </h1>
+  
 
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-11-12T16:10:00+08:00" content="2016-11-12">
-              2016-11-12
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/学习/" itemprop="url" rel="index">
-                    <span itemprop="name">学习</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/11/12/学习新东西一定要快/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/12/学习新东西一定要快/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
       </header>
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
+    <div class="article-entry" itemprop="articleBody">
       
-      
+        <p>当今世界，变化之快令人咋舌。新东西层出不穷，若我们好奇心稍强，总想尝试着这些新的领域，但是怎么进去是个问题。若没有好的学习方法，很容易出现三天的热情，最终放弃的情况。而放弃的原因并不是因为我们不够努力，也不是没有毅力，而是我们没有找到一个好的学习方法。一个好的学习方法，可以让我们在学习的过程中充斥着快乐与成就感，并不知不觉的进入一个新的领域。</p>
+<p>在参加完新生大学元学习的在线课程后，发现学习是真的有套路的，这个套路可以在任何领域中都有效。并且已经有人进行了多个领域的实践并得以验证，比如这个课的主讲人xdite以及《一周工作四小时》的作者蒂莫西·费里斯。</p>
+<h1 id="学习是什么"><a href="#学习是什么" class="headerlink" title="学习是什么"></a>学习是什么</h1><p>在讲学习方法之前，首先要知道学习是什么。清楚知道学习是什么，才能更好的行动，也能够理解后面的学习方法是有效的。</p>
+<blockquote>
+<p>学习更像拼图，而非登山。</p>
+</blockquote>
+<p>正因为学习不像登山，所以学习新东西不需要从扎实的基础理论开始，然后一点点往上爬，这样做的结果常常是从入门到放弃，而不是从入门到精通。正确的做法是从一开始就练习，尝试下这个，尝试下那个，就像拼图的过程中，不停的从图行模块中一个个拿过来尝试是否契合一样。在尝试的过程中，不断的获得正向反馈并得到极大的成就感。这样就没有那么容易放弃。</p>
+<p>在第一次的拼图过程中，其实只是在摸索的过程中，最终拼图完成。也就能够看到一个新领域的框架，即大概的样子。而这个过程是在利用右脑模式，让我们对新生事物有一个感性认知。完成了一次，我们就知道大概怎么做能够达到自己预期。这之后，我们要做的事情就是把这个拼图重新打乱。自己再次，更多次的重复练习，直到形成肌肉记忆并分析其中缘由。</p>
+<p>那现在有个问题，我们该如何确定一个新领域的图形模块与边界呢？如果这些东西找不到，我们同样无从下手，更别谈重复练习。</p>
+<h1 id="高频小套路"><a href="#高频小套路" class="headerlink" title="高频小套路"></a>高频小套路</h1><p>高频小套路就是上一节遗留问题中可以让我们开始练习的东西。一个更加通俗的解释就是任何一个领域里会多次重复的动作。例如烧菜过程中，无论烧什么菜，都需要切菜、翻炒等等，这些就是烧菜的高频小套路。更细致一点，如果常常做xx炒肉丝，那么切肉丝也是高频小套路。如果在学习新的领域过程中，获得该领域的高频小套路，则可以极大的提高我们学习的初速度。我们只需要按这些小套路练习，重复练习，就能够快速获得成就感。渐渐的获得中套路，最后直接完成我们心中的主题。</p>
+<p>获得高频小套路的最有效方式，就是去找该领域中的大牛，一个至少比我们牛10倍的大牛（网络中也有可能存在现成的好的教程）。这些大牛们才能够更好的总结出高频小套路，获得这些小套路之后就可以开始猛的练习。值得注意的是，找大牛是需要付出一些成本的。</p>
+<h1 id="成为瘾君子"><a href="#成为瘾君子" class="headerlink" title="成为瘾君子"></a>成为瘾君子</h1><p>入门之后，遇到的另一个问题是我们该如何保持长期的学习。</p>
+<p>在学习新领域知识的时候，我们手头上往往都有自己的本职工作需要去做，而尝试这些新领域的东西更像是“不务正业”。所以在学习的过程中，当我们正感觉自己学的很开心很有成就感的时候（毕竟找对了方法），说不准就会出现一个声音：</p>
+<blockquote>
+<p>别整些没用的，自己的专业学好了吗？工作完成的够出色吗？难道你想沉迷于这些没用的吗？</p>
+</blockquote>
+<p>一旦出现这个声音，我们很有可能就会告诫自己不要上瘾。是该找个方式，让自己不再做这些东西了，应该花更多的时间与精力去做自己的专业。于是，我们就开始慢慢对新领域失去兴趣，精通更无从谈起。想想也知道，如果我们在学习新东西的时候总是在考虑时间成本，考虑成瘾不好之类的事情，怎么可能学好呢？而当我们对一件事物有成瘾的感觉，恰是我们能够极速提高自己能力的时候，这个时候放弃，当然就离高手更远。而每个领域的真正高手都是瘾君子，他们对自己的事情非常热爱，完全不需要坚持。他们做事情的时候压根就停不下来，因为根本就是上瘾。深陷其中，不能自拔。</p>
+<p>所以说，想成为一个领域的高手，就应该放弃不要沉迷的思维方式。而是尽情的成为瘾君子，让自己养成上瘾的习惯，才能够让我们学习的路走的更远更快。</p>
 
-      
-        
-          学习新东西，总想着基础要扎实，然后从理论开始学习，到最后极有可能会放弃。
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/11/12/学习新东西一定要快/">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
       
     </div>
-
-    <div>
+    <footer class="article-footer">
+      <a data-url="http://towerking.github.io/2016/11/12/学习新东西一定要快/" data-id="civgrnefj001zp50c31ypv0wq" class="article-share-link">Partager</a>
       
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
-  </article>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-跑全程马拉松是怎样的体验" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/11/06/跑全程马拉松是怎样的体验/" class="article-date">
+  <time datetime="2016-11-06T07:35:57.000Z" itemprop="datePublished">2016-11-06</time>
+</a>
     
-      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/跑步/">跑步</a>
+  </div>
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
+  </div>
+  <div class="article-inner">
     
-      <header class="post-header">
-
+    
+      <header class="article-header">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/11/06/跑全程马拉松是怎样的体验/" itemprop="url">
-                  跑全程马拉松是怎样的体验
-                </a>
-              
-            
-          </h1>
-        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/11/06/跑全程马拉松是怎样的体验/">跑全程马拉松是怎样的体验</a>
+    </h1>
+  
 
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-11-06T15:35:57+08:00" content="2016-11-06">
-              2016-11-06
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/跑步/" itemprop="url" rel="index">
-                    <span itemprop="name">跑步</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/11/06/跑全程马拉松是怎样的体验/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/06/跑全程马拉松是怎样的体验/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
       </header>
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
+    <div class="article-entry" itemprop="articleBody">
       
-      
+        <h1 id="赛前"><a href="#赛前" class="headerlink" title="赛前"></a>赛前</h1><p>2016年9月9日这一天，我很幸运，成功被第21届上海国际马拉松抽中。那就必须得参加10月30日的马拉松赛事，而关于这场赛事的体验在这一天到来之前就已经开始。虽然之前我都有参加半程或者全程的赛事，但是根据今年的跑量以及往年跑全马的经验，还是有点担心这一次马拉松能否顺利完成。</p>
+<blockquote>
+<p>对于担心这件事情，担心本身并不能解决问题，关键在于从现在开始要刻意练习跑步让自己的身体更好的适应长距离，不至于跑步当天的时候身体完全适应不过来。</p>
+</blockquote>
+<p>而这段时间，可能会出现下雨与空气质量不佳的情况，所以每一次好天气的时候，都格外珍惜。都会出去跑个5公里或者10公里，每周都要跑个至少3到5回。</p>
+<p>根据前两次跑全马的经验，跑到20或者30公里的时候，身体开始慢慢的有点不适感，所以我计划国庆长假哪里也不去，就留在家里好好训练一下长距离跑。原本计划者每跑一次增加5公里，这样7天下来，最终会达到单次跑30公里的效果。可是在执行的过程中，每一次会跑个15公里，最多跑个21公里，30公里的宏愿并没有完成。但是在平日训练过程中，跑完21公里，只要做个拉伸，感觉还能够跑，第二天也没有出现什么不适应感。这比第一次、第二次跑半程马拉松的感觉好太多，从而对自己这次能够完成全程马拉松的信心略有增加。</p>
+<p>就这样慢慢的训练者，等待这赛事的正式开始。可是，在赛事的那一周，天天阴雨天气，于是对比赛当天的天气多少有点担心。担心它是不是会接着下雨，会不会下大雨。同时，伴随着另外一份侥幸，即平日里的雨下的足够多，当天就不会下雨。就这样，伴随着担心与侥幸的心理迎来了周末，周六没有下雨，这一天是领取装备的日子；周日天气就更好了，不仅没有下雨，而且放晴，并且空气质量足够好，蓝天白云。这么好的天气，也为各个选手提供了创造自己PB的绝佳机会。</p>
+<h1 id="比赛当天"><a href="#比赛当天" class="headerlink" title="比赛当天"></a>比赛当天</h1><p>2016年10月30日是马拉松赛事的日子，在迎来这一天的前一天晚上，买好了第二天的早餐，于是就去南京东路附近的快捷酒店，为第二天的早起以及不匆忙做足准备。到酒店后，放下行李，稍稍休息洗完澡后，设定闹钟4:30，就躺床上去睡觉，此时已经22:30.幸运的是，我很快就入睡，第二天4:30闹钟响起的时候。我就直接起来，完全没有赖床（这对于平时醒来喜欢赖床的我，完全是一种新的体验）。接着就是洗漱，吃早餐等一系列准备工作，毕竟官方提示早餐需要在比赛开始前2个小时完成。</p>
+<p>等这些都准备完成，稍事歇息，就已经5:30，然后与同学一起出发去南京东路外滩集结处，来到集结处才发现其秩序太好，一下子就进入了赛道，而同学不允许进入。他便回去接着休息，我就穿着短袖短裤直接来到赛道。早上6点不到的外滩，穿成这样，还是觉得有点冷。于是进行简单的活动，让自己的身体暖起来，在这过程中看了下天空。感觉景色甚美，掏出手机拍照。刚拍完几张，发现天空又发现了变化，就接着拍。如此，不小心看到外滩景色6点前后的变化，也是件值得非常高兴的事情。<br><img src="/images/marathon01.jpg" alt="marathon01"><br><img src="/images/marathon02.jpg" alt="marathon02"><br><img src="/images/marathon03.jpg" alt="marathon03"></p>
+<p>此时选手还不是很多，还可以不断的前后移动移动，然后随着时间的推移，你就会发现整个赛道全是人。往前看，全是人头不见尽头，往后看依然全是人头，而且每个人之间的距离基本不允许做大幅度的跑前热身活动。终于到7点，起跑枪声响起，而当我经过起跑线的时候已经过去4分多钟，而在我后面的选手将会需要更长的时间，毕竟当时有38，000名选手呢。</p>
+<p>在这样的人流中跑步，会惊讶的发现5公里是如此的短，因为差不多能够提速度的时候，你就不得不和健身跑的选手分开路线，而这也正好说明5公里的路程快结束。接下来，就可以按着平时的速度与无数跑友在赛道上驰骋，而这也是享受跑步的乐趣。一路上，你可能会遇到疯狂原始人，唐僧三徒弟（我想师傅应该是被妖怪给抓走了）等等Cosplay的跑者们。一路上，也有无数的啦啦队为我们加油，有跳广场舞的大妈、有演奏乐器的学生，而最吸引人的是跳着辣舞的漂亮妹子。而这些我都无暇顾及，最多是路过的时候，微微一笑以表示感谢。这些并不能让我更加兴奋，也不能鼓舞我跑的更快。原因是我知道赛道很长，我也有自己的节奏，如果节奏被打乱，后面会更加的痛苦。随着跑的距离越来越长，我也会不断的审视自己的身体，看看有没有什么不适感。如胸口是否烦闷，呼吸是否顺畅等等。如果感觉有点不适的时候，会减缓脚步，做做深呼吸，重新调整后才能够更好的完赛。<strong>跑马是一个不一样的体验，完赛很重要，而健康的完赛更加重要。</strong> 所以一路上，我都会时刻关注自己的身体。</p>
+<p>在关注自己的身体过程中，会觉得饥饿与口渴，这个时候会像猛兽一样到处寻找食物与水源。但是我比猛兽要幸运的多，因为猛兽们可能根本找不到食物或者水源，而我知道这些都在前方等着我。每到一个水源或者可以领取食物的地方都倍感幸福，这些都是自己能量来源。吃完喝完，又将向下一处水源与食物前进。这样一路，来到了20多公里，30多公里地方，身体开始没有那么轻盈了。大腿，小腿酸痛，脚底板有点疼痛。此时此刻，是很想停下来休息。实际上，我也适当的停下来休息，并在休息的过程中计算着里程与时间，想着如何更快的完成。起初是想着，就这样走着应该也能完成，但是疼痛感将会经历更长时间。于是我开始拉伸，让大腿与小腿得以放松，让脚底板得以休息。然后又开始跑，虽然有点难受，但是能够减少疼痛的时间还是很开心的（走路5公里需要1小时，而跑只需要半小时左一点时间）。实在受不了，就走走稍稍休息，并再次拉伸。如此反复进行，离终点越来越近，10公里、8公里、5公里、3公里、200米… 在11:51的时候我到达了终点，相对前几次的5个多小时，我确实创造了自己的PB。</p>
+<p>到达终点之后是很开心的，因为我又完成了一年一度的自我折磨，这种喜悦是从内心深处发出的。<strong>伴随着愉悦出现的，还有从每个细胞中渗透出来的疲惫与疼痛。</strong> 于是，找到一个空地方，坐下来休息并进行拉伸。休息了一段时间，勉强去还了计时芯片，并领取了自己的完赛奖牌。<br><img src="/images/marathon05.jpg" alt="marathon05"></p>
+<h1 id="完赛之后"><a href="#完赛之后" class="headerlink" title="完赛之后"></a>完赛之后</h1><p>每一次马拉松赛事的结束，都会遇到一个绝望的问题，那就是下楼梯，每下一个台阶，都会将赛道上积累的酸痛一次次重现在你面前。即使走平路，也能够看出这双腿是刚刚跑过马拉松的。但这一次令人失望的是，这种酸爽感只持续了短短两天，往些年都会经历一周左右。</p>
+<h1 id="写在结尾的话"><a href="#写在结尾的话" class="headerlink" title="写在结尾的话"></a>写在结尾的话</h1><p>每一次参加上海马拉松赛事都会有同学和我一起去赛道，最后帮我管理我的衣服等其它物质。为此甚是感谢。</p>
 
-      
-        
-          如果人生如马拉松，关键并不是赛事本身，而是之前的长期准备与刻意练习。
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/11/06/跑全程马拉松是怎样的体验/">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
       
     </div>
-
-    <div>
+    <footer class="article-footer">
+      <a data-url="http://towerking.github.io/2016/11/06/跑全程马拉松是怎样的体验/" data-id="civgrnefl0021p50cl5didur3" class="article-share-link">Partager</a>
       
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
-  </article>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-如何开始跑步" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/08/16/如何开始跑步/" class="article-date">
+  <time datetime="2016-08-16T14:10:08.000Z" itemprop="datePublished">2016-08-16</time>
+</a>
     
-      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/跑步/">跑步</a>
+  </div>
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
+  </div>
+  <div class="article-inner">
     
-      <header class="post-header">
-
+    
+      <header class="article-header">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/08/16/如何开始跑步/" itemprop="url">
-                  如何开始跑步
-                </a>
-              
-            
-          </h1>
-        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/08/16/如何开始跑步/">如何开始跑步</a>
+    </h1>
+  
 
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-08-16T22:10:08+08:00" content="2016-08-16">
-              2016-08-16
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/跑步/" itemprop="url" rel="index">
-                    <span itemprop="name">跑步</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/08/16/如何开始跑步/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/08/16/如何开始跑步/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
       </header>
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
+    <div class="article-entry" itemprop="articleBody">
       
-      
+        <blockquote>
+<p>自我介绍：<br>断断续续跑步7年，获得过5公里第一，参加过半程、全程马拉松。</p>
+</blockquote>
+<h1 id="开始跑步"><a href="#开始跑步" class="headerlink" title="开始跑步"></a>开始跑步</h1><p>刚上大学那会儿，学院举行运动会，我不知天高地厚的报名参加了1500米长跑，还自认为跑完并不会太困难。谁曾想，比赛当天我不仅没有跑完1500米，还累得不行，感觉走路都没有力气，坐在椅子上不断的喘气。运动会结束之后，也没有说自己一定得跑步。只是，一次偶然的机会我发现另外一个寝室的同学居然有早起跑步的活动，于是我和他们说一起参与。这一跑，就再没有停下过。</p>
+<h1 id="契机"><a href="#契机" class="headerlink" title="契机"></a>契机</h1><p>不知道从什么时候起，跑步的人越来越多，跑步也越来越流行，各种APP都有跑步打卡功能，有些APP还支持线上马拉松。总之，跑步已经火的不行。无数的人在跑的同时，依然还有很多人没有开始跑。对于这些人，我希望我这篇文章是一个契机，就如同我的同学早上跑步活动是我的契机一样。最终，大家都在跑步这条路上一直持续下去。</p>
+<h1 id="为什么要跑步"><a href="#为什么要跑步" class="headerlink" title="为什么要跑步"></a>为什么要跑步</h1><p>跑步有无数的好处，在互联网上随便一搜就会出现很多结果。现在的许多公众号同样也在告诉你跑步的好处多多。如可以有更好的精神去学习工作，能够给自己带来身心愉悦，还有可能找到另一半等等。好处实在太多，多到我们看的都已经习惯，以致于我们可以对这些视而不见。<br>实际上，我们也应该对其视而不见，因为我们有更重要的事情要做，那就是<em>跑</em>，然后持续下去，用自己的脚步去感受跑步给我们带来的变化，当持续一段时间之后，我们的身体、大脑自然而然的会响应我们。长期来看，跑步给我带来的最大一个好处就是身体的健康，从原来体弱多病的体质变成现在难得感冒的体质，及时感冒也只需喝喝白开水。如果你开始跑了，我相信也能给你带来不一样的感受。</p>
+<blockquote>
+<p>所以，不要纠结为何而跑，而是跑起来再说。</p>
+</blockquote>
+<h1 id="什么时候跑"><a href="#什么时候跑" class="headerlink" title="什么时候跑"></a>什么时候跑</h1><p>有人说早上跑步好，也有人说晚上跑步好，还有人说下午4、5点跑是最好的时间。至于选择哪个时间段，对于一个能够持续跑下去的人来说，什么时间都一样的，至于供氧或者空气问题不是关键的，关键的是<em>哪个时间能够更好的持续下去</em>。</p>
+<p>比如开始我和同学跑是早上起来跑的，可没几天我发现自己那时根本没有办法长期坚持早起。无法早起，就无法跑步。于是，我就将跑步的时间调整到晚上跑，这下就简单多了，每天上完课或者晚自习，回到寝室准备准备，就出去跑了。而下午4、5点的跑步就从来没有尝试过，上学的时候这个时间点一般在上课。现在上班，这个点就更不可能有时间出去跑步。如果我当时纠结于早起跑步，那在大学期间，我想跑步便会终止吧。</p>
+<blockquote>
+<p>选择一个能持续下去的时间才是最重要的。</p>
+</blockquote>
+<h1 id="跑步需要小伙伴嘛"><a href="#跑步需要小伙伴嘛" class="headerlink" title="跑步需要小伙伴嘛"></a>跑步需要小伙伴嘛</h1><p>对于一个开始跑步的人来说，有一个伙伴可以和自己一起跑是再好不过的。这样在彼此放弃的时候，可以互相鼓励打起，这样可以更好的坚持下去，同时也能解决跑步的孤独感。如果你也是这么想的，我就得给你泼冷水了，我认为从一开始就找小伙伴并不能坚持下去，反而会让你不跑步的时间提前到来。至于孤独感，这只是给伪命题。<br>原因很简单的，一个人跑可以随时选择自己想跑的时间开始下去跑。而多了一个伙伴，就得当你想跑的时候，去约小伙伴，而这个时候小伙伴正在忙，忙着学习、忙着工作或者忙着游戏。总之，这时小伙伴是没有办法和你一起跑了，那你是跑还是不跑？此时，你也许就会那就等等吧，结果等着等着就不想跑，今天作罢。明天，小伙伴来约你了，结果你因为各种原因不想跑，明天作罢。后天又将是今天或者明天的一种情况，然后开始的兴致勃勃瞬间结束。<br>如果一定想要小伙伴一起跑，就不要互相约了，定个规则就好，比如晚上9点，小区门口集合，来了就一起跑没来就自己跑。</p>
+<h1 id="怎么真正的开始"><a href="#怎么真正的开始" class="headerlink" title="怎么真正的开始"></a>怎么真正的开始</h1><p>好了，现在我们已经决定什么时候跑，并且也决定一个人跑（也有多人跑的可能性）。但是离卖出步子，还有一点点阻碍，这些阻碍包括天气、工作（感到疲劳，就不愿意跑）、腿酸等等。面对这些，我们要做的事情只有一件：</p>
+<blockquote>
+<p>什么都不想，换好装备，走出家门。</p>
+</blockquote>
+<p>此时再想想这些问题就好，之所以选择这个时候想，是因为人已经下来了，开始跑的概率将大大提高。而在家想，时间就一点点过去，最终不愿出门，不愿跑步的概率将大大提高，然后就愉快的决定今天不跑。<br>关于这一事实，是我多年跑步总结出来的。每每坐在家里想要不要跑的时候，就真的不会跑，而什么都不想的时候，反而容易跑起来。</p>
+<h1 id="拉伸"><a href="#拉伸" class="headerlink" title="拉伸"></a>拉伸</h1><p>既然开始跑步了，就从一开始养成好习惯，那就是跑前跑后进行拉伸。这样做可以防止跑步过程中受伤，也能更好的从跑步的酸痛中进行恢复。当然这个拉伸的动作也应该出门之后做，就不要在家做了，我担心一开始在家做完之后就不想跑了。千万别觉得自己很强大，认为这种事情不可能发生在自己身上，想着拉伸结束了还能不跑？答案是是的，只要在家随时都有可能不跑，要跑就得在想的那一会儿走出家门。</p>
+<h1 id="在路上"><a href="#在路上" class="headerlink" title="在路上"></a>在路上</h1><p>终于，你开始跑步了，可是觉得有点无聊，有点不能坚持。此时换个角度想想，你将因为跑步有人鱼线、有马甲线，也许你就有动力。或者你将跑步晒到朋友圈，让无数人给你点赞。需要说明的是，我说的晒朋友圈并不是从一开始就每天晒跑步的路线，跑了多少公里，这样太low。而是在跑的开始将自己的体重与身材做个记录，经过100天，再将自己的身材与体重做个记录，然后将前后对照放到朋友圈。或者写篇文章，跑步100天来自己有哪些变化。最后预祝所有跑者：</p>
+<blockquote>
+<p> 在跑的路上，遇见未知的自己。</p>
+</blockquote>
 
-      
-        
-          跑步本身并不困难，而且可以说非常简单，问题是怎么才能开始？
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/08/16/如何开始跑步/">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
       
     </div>
-
-    <div>
+    <footer class="article-footer">
+      <a data-url="http://towerking.github.io/2016/08/16/如何开始跑步/" data-id="civgrnefi001xp50cqmw2asmb" class="article-share-link">Partager</a>
       
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
-  </article>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-不求甚解" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/08/02/不求甚解/" class="article-date">
+  <time datetime="2016-08-02T11:39:08.000Z" itemprop="datePublished">2016-08-02</time>
+</a>
     
-      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/杂谈/">杂谈</a>
+  </div>
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
+  </div>
+  <div class="article-inner">
     
-      <header class="post-header">
-
+    
+      <header class="article-header">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/08/02/不求甚解/" itemprop="url">
-                  不求甚解
-                </a>
-              
-            
-          </h1>
-        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/08/02/不求甚解/">不求甚解</a>
+    </h1>
+  
 
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-08-02T19:39:08+08:00" content="2016-08-02">
-              2016-08-02
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/杂谈/" itemprop="url" rel="index">
-                    <span itemprop="name">杂谈</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/08/02/不求甚解/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/08/02/不求甚解/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
       </header>
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
+    <div class="article-entry" itemprop="articleBody">
       
-      
-
-      
-        
-          
-            <h1 id="与你相遇"><a href="#与你相遇" class="headerlink" title="与你相遇"></a>与你相遇</h1><p>我记得第一次听到不求甚解这个词是在初中的语文课上，课堂教授的是古文《五柳先生传》。里面有一句古文是：</p>
+        <h1 id="与你相遇"><a href="#与你相遇" class="headerlink" title="与你相遇"></a>与你相遇</h1><p>我记得第一次听到不求甚解这个词是在初中的语文课上，课堂教授的是古文《五柳先生传》。里面有一句古文是：</p>
 <blockquote>
 <p>好读书，不求甚解。</p>
 </blockquote>
@@ -761,247 +296,97 @@
 </blockquote>
 <p>想想也真是奇怪，我怎么就没有用这一句去知道我的生活呢？</p>
 
-          
-        
       
     </div>
-
-    <div>
+    <footer class="article-footer">
+      <a data-url="http://towerking.github.io/2016/08/02/不求甚解/" data-id="civgrnefg001vp50ceqpyfr1p" class="article-share-link">Partager</a>
       
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
-  </article>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-LeBlanc" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/01/28/LeBlanc/" class="article-date">
+  <time datetime="2016-01-27T16:00:00.000Z" itemprop="datePublished">2016-01-28</time>
+</a>
     
-      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/读书笔记/">读书笔记</a>
+  </div>
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
+  </div>
+  <div class="article-inner">
     
-      <header class="post-header">
-
+    
+      <header class="article-header">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/01/28/LeBlanc/" itemprop="url">
-                  勒布朗（LeBlanc）法则
-                </a>
-              
-            
-          </h1>
-        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/01/28/LeBlanc/">勒布朗（LeBlanc）法则</a>
+    </h1>
+  
 
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-01-28T00:00:00+08:00" content="2016-01-28">
-              2016-01-28
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/读书笔记/" itemprop="url" rel="index">
-                    <span itemprop="name">读书笔记</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/01/28/LeBlanc/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/28/LeBlanc/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
       </header>
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
+    <div class="article-entry" itemprop="articleBody">
       
-      
+        <p>今天翻开Robert C.Martin著，韩磊译的《代码整洁之道》，在1.2 糟糕的代码一节中，有这么一段话。</p>
+<blockquote>
+<p>我们都曾经瞟一眼自己亲手造成的混乱，决定弃之而不顾，走向新一天。我们都曾经看到自己的烂程序居然能运行，然后断言能运行的烂程序总比什么都没有强。我们曾经说过有朝一日再回头清理。当然，在那些日子里，我们都没听过勒布朗（LeBlanc）法则：稍后等于永不（Later equals never）。</p>
+</blockquote>
+<p>看完这段话，我稍作停留，抬头看着地铁窗外。脑中想到的都是我自己曾经，甚至现在都处于这个法则中。</p>
+<p>例如现在写的一个项目，每次需要添加一个新功能的时候或者需要修改一下其他代码的时候，总会发现这一段代码写的逻辑混乱，还得自己看个半天才能够明白自己写的是什么，按着常理说咱理应花点时间进行重构吧。问题是如果这段代码我现在的功能用不到，我就告诉自己等等，然后继续开发新的功能或者Fix Bug。想着等我把这些东西搞定之后，再来重构这段代码。只是当我看到自己的程序能够成功运行时，也就把重构的事情忘记了，那么该混乱的代码还是混乱的。</p>
+<p>不仅仅是代码的，有时候开发项目，今天用一种方式实现的功能，等过一段时间后再次点开时就觉得原来实现的功能方式是不够完美的，而现在有一个更好的方式实现。只是现在手头还有其他功能需要去开发，然后就告诉自己等有时间了，一定会将这个功能重新实现一下。OK，等着我手头的功能完成了，人就变懒了，看点别的东西，借故休息一下，然后曾经信誓旦旦说需要修改的功能就再也没有下文。</p>
+<p>类似的例子，我生活中也普遍存在着，例如今天一定要做某某事情，看某某书籍，如果由于各种原因没有开始的话，决定做的事情往往就被忘记了，只有等着某天突然想起的时候才回去动手，这虽然没有演变成永不，执行时间却被明显拖长。</p>
+<p>现在知道这种行为有一个专用名词，希望以后能够时时记住这法则，然后让该做的事情能够尽快完成，而不让其成为永不。</p>
 
-      
-        
-          我们都曾经瞟一眼自己亲手造成的混乱，决定弃之而不顾，走向新一天。我们都曾经看到自己的烂程序居然能运行，然后断言能运行的烂程序总比什么都没有强。我们曾经说过有朝一日再回头清理。当然，在那些日子里，我们都没听过勒布朗（LeBlanc）法则：稍后等于永不（Later equals never）
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/01/28/LeBlanc/">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
       
     </div>
+    <footer class="article-footer">
+      <a data-url="http://towerking.github.io/2016/01/28/LeBlanc/" data-id="civgrnee8000cp50c3mf2bwbe" class="article-share-link">Partager</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/代码整洁之道/">代码整洁之道</a></li></ul>
 
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
     </footer>
-  </article>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-wen-xue-hui-yi-lu" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/01/17/wen-xue-hui-yi-lu/" class="article-date">
+  <time datetime="2016-01-16T16:00:00.000Z" itemprop="datePublished">2016-01-17</time>
+</a>
     
-      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/读书笔记/">读书笔记</a>
+  </div>
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
+  </div>
+  <div class="article-inner">
     
-      <header class="post-header">
-
+    
+      <header class="article-header">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/01/17/wen-xue-hui-yi-lu/" itemprop="url">
-                  《文学回忆录》上册
-                </a>
-              
-            
-          </h1>
-        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/01/17/wen-xue-hui-yi-lu/">《文学回忆录》上册</a>
+    </h1>
+  
 
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-01-17T00:00:00+08:00" content="2016-01-17">
-              2016-01-17
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/读书笔记/" itemprop="url" rel="index">
-                    <span itemprop="name">读书笔记</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/01/17/wen-xue-hui-yi-lu/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/17/wen-xue-hui-yi-lu/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
       </header>
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
+    <div class="article-entry" itemprop="articleBody">
       
-      
-
-      
-        
-          
-            <p>《文学回忆录》买来发现上下两册，每册都有500多页，这周将上册读完，感觉就像一个智者长者在和我说话。他在上面说，我在下面听着，虽然很多东西听着不是很明白，即使再花不少时间也不一定能弄明白，但是我还是愿意听他讲的，即使时间再长也是愿意的。</p>
+        <p>《文学回忆录》买来发现上下两册，每册都有500多页，这周将上册读完，感觉就像一个智者长者在和我说话。他在上面说，我在下面听着，虽然很多东西听着不是很明白，即使再花不少时间也不一定能弄明白，但是我还是愿意听他讲的，即使时间再长也是愿意的。</p>
 <p>《文学回忆录》中记录的是木心先生对文学、哲学、艺术以及宗教的历史以及自己的见解，见解独到，各国各个时代的文学、人物都可以进行类比，说出来的话也是其他地方无法看到的。真正让人感觉到其博学，并按着自己的理解给理解透了。里面的妙语无数，想摘录也无法摘录，若是真的摘录，也许得通篇敲一遍。其中有这么几句是说艺术与宗教的。</p>
 <blockquote>
 <p>放下屠刀，立地成佛，是宗教。放下屠刀，立地不成佛，是艺术。</p>
@@ -1009,125 +394,46 @@
 </blockquote>
 <p>说的我似懂非懂，其实是完全不懂，而现在不管懂或着不懂，我都想尽快开始阅读下册。</p>
 
-          
-        
       
     </div>
-
-    <div>
+    <footer class="article-footer">
+      <a data-url="http://towerking.github.io/2016/01/17/wen-xue-hui-yi-lu/" data-id="civgrnefb001rp50c7yrolw6r" class="article-share-link">Partager</a>
       
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
-  </article>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-weekend-is-a-killer" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/01/16/weekend-is-a-killer/" class="article-date">
+  <time datetime="2016-01-15T16:00:00.000Z" itemprop="datePublished">2016-01-16</time>
+</a>
     
-      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/杂谈/">杂谈</a>
+  </div>
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
+  </div>
+  <div class="article-inner">
     
-      <header class="post-header">
-
+    
+      <header class="article-header">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/01/16/weekend-is-a-killer/" itemprop="url">
-                  周末是我计划的杀手
-                </a>
-              
-            
-          </h1>
-        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/01/16/weekend-is-a-killer/">周末是我计划的杀手</a>
+    </h1>
+  
 
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-01-16T00:00:00+08:00" content="2016-01-16">
-              2016-01-16
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/杂谈/" itemprop="url" rel="index">
-                    <span itemprop="name">杂谈</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/01/16/weekend-is-a-killer/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/16/weekend-is-a-killer/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
       </header>
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
+    <div class="article-entry" itemprop="articleBody">
       
-      
-
-      
-        
-          
-            <p>当我想做点事情的时候，总是会计划每天干些什么。原本我以为平时周末下班之后比较累，回来做这些工作之外的事情比较难，而周末时间相对比较宽裕，执行计划应该会比较简单。可实际上却相反，每次周末执行起来反而比平时还要困难些。不要说周末时间充裕可以多做些事情，有时候连原本的计划都没有很好的完成。</p>
+        <p>当我想做点事情的时候，总是会计划每天干些什么。原本我以为平时周末下班之后比较累，回来做这些工作之外的事情比较难，而周末时间相对比较宽裕，执行计划应该会比较简单。可实际上却相反，每次周末执行起来反而比平时还要困难些。不要说周末时间充裕可以多做些事情，有时候连原本的计划都没有很好的完成。</p>
 <p>这种现象并不是说最近才有的，早几年的计划都是这样。有时候有些计划，常常因为周末的存在被扼杀。对于这种现象，我现在的解释有两种：</p>
 <ol>
 <li><p>平时工作，身体与脑力都习惯做事情，周末身体与脑力同样习惯休息。</p>
@@ -1137,125 +443,46 @@
 </ol>
 <p>还有什么更深层次的原因或者有什么比较好的方式去解决这个问题是我的一个思考题。</p>
 
-          
-        
       
     </div>
-
-    <div>
+    <footer class="article-footer">
+      <a data-url="http://towerking.github.io/2016/01/16/weekend-is-a-killer/" data-id="civgrnef9001pp50c1gprgc03" class="article-share-link">Partager</a>
       
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
-  </article>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-SwipeRefreshLayout" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/01/15/SwipeRefreshLayout/" class="article-date">
+  <time datetime="2016-01-14T16:00:00.000Z" itemprop="datePublished">2016-01-15</time>
+</a>
     
-      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Android/">Android</a>
+  </div>
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
+  </div>
+  <div class="article-inner">
     
-      <header class="post-header">
-
+    
+      <header class="article-header">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/01/15/SwipeRefreshLayout/" itemprop="url">
-                  SwipeRefreshLayout程序自动触发
-                </a>
-              
-            
-          </h1>
-        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/01/15/SwipeRefreshLayout/">SwipeRefreshLayout程序自动触发</a>
+    </h1>
+  
 
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-01-15T00:00:00+08:00" content="2016-01-15">
-              2016-01-15
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Android/" itemprop="url" rel="index">
-                    <span itemprop="name">Android</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/01/15/SwipeRefreshLayout/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/15/SwipeRefreshLayout/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
       </header>
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
+    <div class="article-entry" itemprop="articleBody">
       
-      
-
-      
-        
-          
-            <p>关于SwipeRefreshLayout程序自动触发是之前就已经解决的问题，只是当时没有记录的习惯，所以没有记录。今天工作主要是针对之前的项目一些修改，并没有新的知识点获得，就拿这个已经获得的东西来滥竽充数。</p>
+        <p>关于SwipeRefreshLayout程序自动触发是之前就已经解决的问题，只是当时没有记录的习惯，所以没有记录。今天工作主要是针对之前的项目一些修改，并没有新的知识点获得，就拿这个已经获得的东西来滥竽充数。</p>
 <p>SwipeRefreshLayout是google自己推出的下拉刷新控件，易用，我在项目中一般都会使用该控件。下面开始说说它的几个常用方法以及相关代码片段。</p>
 <ul>
 <li>setColorSchemeResources设置用于进度条动画的颜色</li>
@@ -1274,125 +501,46 @@
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">swipeRefreshLayout.post(new Runnable() &#123;</div><div class="line">    @Override</div><div class="line">    public void run() &#123;</div><div class="line">    	// 显示设置进度条可见</div><div class="line">        swipeRefreshLayout.setRefreshing(true);</div><div class="line">        // do something in background</div><div class="line">    &#125;</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
 
-          
-        
       
     </div>
-
-    <div>
+    <footer class="article-footer">
+      <a data-url="http://towerking.github.io/2016/01/15/SwipeRefreshLayout/" data-id="civgrneea000fp50ckvfwy0iw" class="article-share-link">Partager</a>
       
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
-  </article>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-implicit-cost" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/01/14/implicit-cost/" class="article-date">
+  <time datetime="2016-01-13T16:00:00.000Z" itemprop="datePublished">2016-01-14</time>
+</a>
     
-      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/杂谈/">杂谈</a>
+  </div>
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
+  </div>
+  <div class="article-inner">
     
-      <header class="post-header">
-
+    
+      <header class="article-header">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/01/14/implicit-cost/" itemprop="url">
-                  关于隐性成本的浅识
-                </a>
-              
-            
-          </h1>
-        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/01/14/implicit-cost/">关于隐性成本的浅识</a>
+    </h1>
+  
 
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-01-14T00:00:00+08:00" content="2016-01-14">
-              2016-01-14
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/杂谈/" itemprop="url" rel="index">
-                    <span itemprop="name">杂谈</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/01/14/implicit-cost/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/14/implicit-cost/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
       </header>
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
+    <div class="article-entry" itemprop="articleBody">
       
-      
-
-      
-        
-          
-            <p>这段时间看见不少大牛的公众号有谈到各种各样的隐形成本，如时间成本、信用成本、决策成本等等其他相关内容。其中时间成本是看到比较多的，也是我现在可以想象的。至于信用成本与决策成本现在还不能好好的体会。</p>
+        <p>这段时间看见不少大牛的公众号有谈到各种各样的隐形成本，如时间成本、信用成本、决策成本等等其他相关内容。其中时间成本是看到比较多的，也是我现在可以想象的。至于信用成本与决策成本现在还不能好好的体会。</p>
 <p>那就来谈谈我对时间成本的一些想法。</p>
 <p>在看到的例子中是说你在北上广上班，有些人离公司近，有些人为了省点房租就住的远点，然后来回路上浪费不少时间。</p>
 <blockquote>
@@ -1405,125 +553,46 @@
 <p>还一个例子是说看视频的时候，买会员去广告的，这个我就持保留意见。我觉得在看视频的时候，看看1分钟的广告有时候也挺好的，看看广告都在做些什么，或者乘机让眼睛歇歇。</p>
 <p>综上，关于时间成本的问题，往往是不清楚自己用多余的时间干些什么事情比较好。本质上，应该是不知道提升自己，不知道去学习;等意识到需要为自己充电的时候，是会想着法子去节约时间的。其次还有可能是“穷”，又舍不得花钱，感觉能省点就省点，这个我觉得还是该花的就花吧，尤其是在买书这件事情上，就别犹豫了。</p>
 
-          
-        
       
     </div>
-
-    <div>
+    <footer class="article-footer">
+      <a data-url="http://towerking.github.io/2016/01/14/implicit-cost/" data-id="civgrneet0016p50c1z1sagwz" class="article-share-link">Partager</a>
       
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
-  </article>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-recycler-view" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/01/13/recycler-view/" class="article-date">
+  <time datetime="2016-01-12T16:00:00.000Z" itemprop="datePublished">2016-01-13</time>
+</a>
     
-      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Android/">Android</a>
+  </div>
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
+  </div>
+  <div class="article-inner">
     
-      <header class="post-header">
-
+    
+      <header class="article-header">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/01/13/recycler-view/" itemprop="url">
-                  RecyclerView的使用入门
-                </a>
-              
-            
-          </h1>
-        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/01/13/recycler-view/">RecyclerView的使用入门</a>
+    </h1>
+  
 
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-01-13T00:00:00+08:00" content="2016-01-13">
-              2016-01-13
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Android/" itemprop="url" rel="index">
-                    <span itemprop="name">Android</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/01/13/recycler-view/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/13/recycler-view/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
       </header>
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
+    <div class="article-entry" itemprop="articleBody">
       
-      
-
-      
-        
-          
-            <p>不应该放弃学习的，更不应该放弃学习新知识。因为有时候新的知识点能够帮助我们更好的工作，并提高一定的工作效率。对于Android开发来说，RecyclerView就是这么个控件。它能够完成ListView与GridView的功能，而且还可以完成瀑布流的功能，关键是切换起来非常方便。</p>
+        <p>不应该放弃学习的，更不应该放弃学习新知识。因为有时候新的知识点能够帮助我们更好的工作，并提高一定的工作效率。对于Android开发来说，RecyclerView就是这么个控件。它能够完成ListView与GridView的功能，而且还可以完成瀑布流的功能，关键是切换起来非常方便。</p>
 <p>官网中有段英文说明是说RecyclerView是一个更高级与灵活的ListView版本。能够高效加载大量数据，同时我们还可以灵活的自定义该组件。我这只是简单的翻译，完整的可以参考<a href="http://developer.android.com/training/material/lists-cards.html#RecyclerView" target="_blank" rel="external">官方网址</a>(访问需要翻墙的)。</p>
 <p>现在说明一下其简单的使用方法，下面将会是些代码片段，具体的看到效果还得自己写代码去看看。这里主要用到的组件有RecyclerView与CardView控件（这个比较简单的，就可以和LinearLayout使用方法差不多），然后依然使用前一篇文章使用的Butter Knife开源库。所以gradle配置文件需要涵盖下面的内容。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">dependencies &#123;</div><div class="line">    compile &apos;com.android.support:cardview-v7:23.1.1&apos;</div><div class="line">    compile &apos;com.android.support:recyclerview-v7:23.1.1&apos;</div><div class="line">    compile &apos;com.jakewharton:butterknife:7.0.1&apos;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -1538,412 +607,129 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">@Bind(R.id.recycler_view) RecyclerView recyclerView;</div><div class="line">...	// 表示其他代码</div><div class="line">@Override</div><div class="line">protected void onCreate(Bundle savedInstanceState) &#123;</div><div class="line">	super.onCreate(savedInstanceState);</div><div class="line">    setContentView(R.layout.activity_main);</div><div class="line">    ButterKnife.bind(this);</div><div class="line">    ...</div><div class="line"></div><div class="line">    // 1. 这可以实现ListView的功能</div><div class="line">    recyclerView.setLayoutManager(new LinearLayoutManager(this));</div><div class="line"></div><div class="line">    // 2. 这可以实现GridView功能，其中2表示一行显示两个元素</div><div class="line">    recyclerView.setLayoutManager(new GridLayoutManager(this, 2));</div><div class="line"></div><div class="line">    // 3. 这是瀑布流形式的调用方法，如果想看出效果，可以在初始化字符串时多给几个\n</div><div class="line">    recyclerView.setLayoutManager(new StaggeredGridLayoutManager(2,</div><div class="line">                StaggeredGridLayoutManager.VERTICAL));</div><div class="line"></div><div class="line">    recyclerView.setAdapter(new BookIntroAdapter(new String[]&#123;&quot;Java&quot;, &quot;Android&quot;, &quot;C#&quot;&#125;));</div><div class="line"> &#125;</div></pre></td></tr></table></figure>
 <p>注意：上述代码片段中的1、2、3就是不同呈现方式需要的代码，在实际项目中根据实际情况任意选一个就好。看到这么便利的组件，难道不想试一试嘛？</p>
 
-          
-        
       
     </div>
-
-    <div>
+    <footer class="article-footer">
+      <a data-url="http://towerking.github.io/2016/01/13/recycler-view/" data-id="civgrnef5001ip50clnz9xvpo" class="article-share-link">Partager</a>
       
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
-  </article>
+  </div>
+  
+</article>
 
-
-    
-  </section>
 
   
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+
+
+  <nav id="page-nav">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/">__('next') &raquo;</a>
   </nav>
-
-
-
-          </div>
-          
-
-
-          
-
-        </div>
+</section>
         
-          
+          <aside id="sidebar">
   
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Catégories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Android/">Android</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/git/">git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/学习/">学习</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/杂谈/">杂谈</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/跑步/">跑步</a></li></ul>
     </div>
   </div>
 
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
 
-      
-
-      
-
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.png"
-               alt="王巍" />
-          <p class="site-author-name" itemprop="name">王巍</p>
-          <p class="site-description motion-element" itemprop="description"></p>
-        </div>
-        <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/archives">
-              <span class="site-state-item-count">28</span>
-              <span class="site-state-item-name">日志</span>
-            </a>
-          </div>
-
-          
-            <div class="site-state-item site-state-categories">
-              <a href="/categories">
-                <span class="site-state-item-count">7</span>
-                <span class="site-state-item-name">分类</span>
-              </a>
-            </div>
-          
-
-          
-            <div class="site-state-item site-state-tags">
-              <a href="/tags">
-                <span class="site-state-item-count">1</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-
-        <div class="links-of-author motion-element">
-          
-            
-              <span class="links-of-author-item">
-                <a href="https://github.com/towerking" target="_blank" title="GitHub">
-                  
-                    <i class="fa fa-fw fa-github"></i>
-                  
-                  GitHub
-                </a>
-              </span>
-            
-              <span class="links-of-author-item">
-                <a href="http://weibo.com/towerking/home" target="_blank" title="微博">
-                  
-                    <i class="fa fa-fw fa-globe"></i>
-                  
-                  微博
-                </a>
-              </span>
-            
-          
-        </div>
-
-        
-        
-
-        
-        
-
-      </section>
-
-      
-
-    </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright" >
   
-  &copy; 
-  <span itemprop="copyrightYear">2016</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">王巍</span>
-</div>
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Mot-clés</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/代码整洁之道/">代码整洁之道</a></li></ul>
+    </div>
+  </div>
 
-<div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
-</div>
 
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Pisces
-  </a>
-</div>
-
-        
-
-        
-      </div>
-    </footer>
-
-    <div class="back-to-top">
-      <i class="fa fa-arrow-up"></i>
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Nuage de mot-clés</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/代码整洁之道/" style="font-size: 10px;">代码整洁之道</a>
     </div>
   </div>
 
   
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a></li></ul>
+    </div>
+  </div>
 
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
-
-  
-  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
-
-
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
-
-
-
-  
 
   
     
-  
+  <div class="widget-wrap">
+    <h3 class="widget-title">Articles récents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/11/12/学习新东西一定要快/">学习的套路</a>
+          </li>
+        
+          <li>
+            <a href="/2016/11/06/跑全程马拉松是怎样的体验/">跑全程马拉松是怎样的体验</a>
+          </li>
+        
+          <li>
+            <a href="/2016/08/16/如何开始跑步/">如何开始跑步</a>
+          </li>
+        
+          <li>
+            <a href="/2016/08/02/不求甚解/">不求甚解</a>
+          </li>
+        
+          <li>
+            <a href="/2016/01/28/LeBlanc/">勒布朗（LeBlanc）法则</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
 
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"towerking"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
   
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 王巍<br>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
     
-  
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
+<script src="/js/script.js"></script>
 
-
-  
-  
-  <script type="text/javascript">
-    // Popup Window;
-    var isfetched = false;
-    // Search DB path;
-    var search_path = "search.xml";
-    if (search_path.length == 0) {
-       search_path = "search.xml";
-    }
-    var path = "/" + search_path;
-    // monitor main search box;
-
-    function proceedsearch() {
-      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
-      $('.popup').toggle();
-
-    }
-    // search function;
-    var searchFunc = function(path, search_id, content_id) {
-    'use strict';
-    $.ajax({
-        url: path,
-        dataType: "xml",
-        async: true,
-        success: function( xmlResponse ) {
-            // get the contents from search data
-            isfetched = true;
-            $('.popup').detach().appendTo('.header-inner');
-            var datas = $( "entry", xmlResponse ).map(function() {
-                return {
-                    title: $( "title", this ).text(),
-                    content: $("content",this).text(),
-                    url: $( "url" , this).text()
-                };
-            }).get();
-            var $input = document.getElementById(search_id);
-            var $resultContent = document.getElementById(content_id);
-            $input.addEventListener('input', function(){
-                var matchcounts = 0;
-                var str='<ul class=\"search-result-list\">';                
-                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
-                $resultContent.innerHTML = "";
-                if (this.value.trim().length > 1) {
-                // perform local searching
-                datas.forEach(function(data) {
-                    var isMatch = true;
-                    var content_index = [];
-                    var data_title = data.title.trim().toLowerCase();
-                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
-                    var data_url = data.url;
-                    var index_title = -1;
-                    var index_content = -1;
-                    var first_occur = -1;
-                    // only match artiles with not empty titles and contents
-                    if(data_title != '' && data_content != '') {
-                        keywords.forEach(function(keyword, i) {
-                            index_title = data_title.indexOf(keyword);
-                            index_content = data_content.indexOf(keyword);
-                            if( index_title < 0 && index_content < 0 ){
-                                isMatch = false;
-                            } else {
-                                if (index_content < 0) {
-                                    index_content = 0;
-                                }
-                                if (i == 0) {
-                                    first_occur = index_content;
-                                }
-                            }
-                        });
-                    }
-                    // show search results
-                    if (isMatch) {
-                        matchcounts += 1;
-                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
-                        var content = data.content.trim().replace(/<[^>]+>/g,"");
-                        if (first_occur >= 0) {
-                            // cut out 100 characters
-                            var start = first_occur - 20;
-                            var end = first_occur + 80;
-                            if(start < 0){
-                                start = 0;
-                            }
-                            if(start == 0){
-                                end = 50;
-                            }
-                            if(end > content.length){
-                                end = content.length;
-                            }
-                            var match_content = content.substring(start, end);
-                            // highlight all keywords
-                            keywords.forEach(function(keyword){
-                                var regS = new RegExp(keyword, "gi");
-                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
-                            });
-                            
-                            str += "<p class=\"search-result\">" + match_content +"...</p>"
-                        }
-                        str += "</li>";
-                    }
-                })};
-                str += "</ul>";
-                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
-                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
-                $resultContent.innerHTML = str;
-            });
-            proceedsearch();
-        }
-    });}
-
-    // handle and trigger popup window;
-    $('.popup-trigger').mousedown(function(e) {
-      e.stopPropagation();
-      if (isfetched == false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-
-    });
-
-    $('.popup-btn-close').click(function(e){
-      $('.popup').hide();
-      $(".popoverlay").remove();
-      $('body').css('overflow', '');
-    });
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-  </script>
-
-  
-
-  
-
-  
-
+  </div>
 </body>
 </html>
