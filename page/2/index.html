@@ -298,6 +298,137 @@
             
               
                 
+                <a class="post-title-link" href="/2016/01/12/butter-knife/" itemprop="url">
+                  Butter Knife简介
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-01-12T00:00:00+08:00" content="2016-01-12">
+              2016-01-12
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Android/" itemprop="url" rel="index">
+                    <span itemprop="name">Android</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/01/12/butter-knife/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/12/butter-knife/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>最初写Android项目的时候，也不知道可以用什么开源项目，就跟着《第一行代码》里面写的一些东西开始第一个界面。大量的XML文件，Activity中调用控件的时候，用的是下面的代码。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">View view = findViewById(R.id.item);</div><div class="line">// 如果是其他控件，还得自己手动转，如TextView，则需要这样写</div><div class="line">TextView textView = (TextView) findViewById(R.id.text);</div></pre></td></tr></table></figure>
+<p>起初也没有感觉这么写有什么不好，虽然有点繁琐，但是将这些初始化的组件，在代码起初申明好变量，然后将所有获取控件的代码放在一个统一的方法中，也就无须管事。后来陆续看别人分享的代码或者开源项目的时候，大多数都使用了Butter Knife这个开源库，它是用注解的方式来完成我们之前的工作，形式如下。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">@Bind(R.id.text) TextView textView;</div></pre></td></tr></table></figure>
+<p>就一行也许没有看出什么特别优势，但是如果写的控件比较多，这样写的优势还是很明显的，代码量至少节约点，也比较容易读，好像TextView是@Bind(R.id.text)类型一样(这样理解是不是有点问题)。声明完这些控件之后，不要忘记在Activity中的onCreated方法中调用一行代码，否则会出现空指针异常，找不到控件之类的。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">@Override</div><div class="line">protected void onCreate(Bundle savedInstanceState) &#123;</div><div class="line">    super.onCreate(savedInstanceState);</div><div class="line">    setContentView(R.layout.activity_main);</div><div class="line">    // 一定要加上这行代码</div><div class="line">    ButterKnife.bind(this);</div><div class="line">    // do more things</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>如果不是在Activity中使用这个，在其他地方使用，如继承RecyclerView.ViewHolder的ViewHolder中，绑定方式有些许区别。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">public static class ViewHolder extends RecyclerView.ViewHolder &#123;</div><div class="line">    @Bind(R.id.text) TextView mTextView;</div><div class="line">    public ViewHolder(View view) &#123;</div><div class="line">        super(view);</div><div class="line">        // 注意这句，绑定方式和之前的是不是有点不一样</div><div class="line">        ButterKnife.bind(this, view);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>如何在自己的项目中使用ButterKnife开源库，只需要在gradle中配置一行引用依赖</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">compile &apos;com.jakewharton:butterknife:7.0.1&apos;</div></pre></td></tr></table></figure>
+<p>这个开源库学习起来还是比较简单的，基本上将其官网的东西从头到尾看一遍就好了，如果忘记就再查一下。我这里只是简单的说明了一下Butter Knife的使用方式，关于它的更多信息，可以参考其<a href="http://jakewharton.github.io/butterknife/" target="_blank" rel="external">官网</a>。</p>
+<p>============<br>2016.01.18补记<br>今天在用ButterKnife的时候遇到一个错误exception java.lang.RuntimeException: Unable to bind views for Fragment on ButterKnife.bind(this, view)。经过查阅发现是控件绑定错误，本来是<code>ImageView</code>控件，在使用ButterKnife进行绑定的时候使用了<code>Button</code>。参考<a href="http://stackoverflow.com/questions/31906268/butter-knife-unable-to-bind-views-for-fragment" target="_blank" rel="external">Stackoverflow网站</a></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2016/01/11/blog-puzzle/" itemprop="url">
                   博客不好写
                 </a>
@@ -822,130 +953,6 @@
             
               
                 
-                <a class="post-title-link" href="/2016/01/05/endless-loop/" itemprop="url">
-                  关于死循环我是这么想的
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-01-05T00:00:00+08:00" content="2016-01-05">
-              2016-01-05
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/杂谈/" itemprop="url" rel="index">
-                    <span itemprop="name">杂谈</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/01/05/endless-loop/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/05/endless-loop/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>我们在生活或者工作中总是遇到一些问题需要去解决。其中有不少是“死循环”问题，一些看似无解的东西。</p>
-<p>最近想来这类问题是比较容易解决的，因为是个环，其必有多个节点可以作为攻破点，任何一个节点被攻克之后，环终将不是环。这就像两军对垒时，有一方摆出一个环环相扣的阵法，看似无敌，却总被明眼人找到致命弱点，一破便获得胜利。</p>
-<p>再看我们的“死循环”也就这么回事，而环的致命弱点往往是自己所处的节，你想想敌阵中最要命的环节居然是我们安插的“内奸”，怎能不破？</p>
-<p>所以说，遇到问题把各个环节写出来，答案也许就已找到。</p>
-<p>PS:我用了“我们”而没有用“我”，因为我知道自己在这方面并不孤单。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
                 <a class="post-title-link" href="/2016/01/05/android-plan/" itemprop="url">
                   Android博客系列计划
                 </a>
@@ -1023,6 +1030,130 @@
 <h5 id="关于技术"><a href="#关于技术" class="headerlink" title="关于技术"></a>关于技术</h5><p>现在还是感觉技术博文比较难写，也不清楚要写些什么。不管怎样，大致先确定以下几个方向，然后慢慢想着。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">1. Android的一些基本理论学习与总结，一些技术细节的原理等。</div><div class="line"></div><div class="line">2. 在开发现在的项目中，遇到的一些问题总结出来，并说明解决方案。</div><div class="line"></div><div class="line">3. 项目中，哪些地方是需要改善的，应该怎么改善。</div><div class="line"></div><div class="line">4. 用到的开源库，说明其使用方法，或者源码分析，从中学到什么东西。</div><div class="line"></div><div class="line">5. 从项目中，提炼一些通用的东西，然后放到github中，说明其使用方式。</div><div class="line"></div><div class="line">6. 对现在已经使用的技术，但是却不是很清晰的东西，尽量弄清楚来。</div><div class="line"></div><div class="line">7. 自己准备开发一个读书记录的个人项目，开发这个项目的点点滴滴也可以记录。</div></pre></td></tr></table></figure>
 <p>嗯，这么一看要写的东西方向还是挺多，再好好挤一挤，或许能写点东西出来。:)</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/01/05/endless-loop/" itemprop="url">
+                  关于死循环我是这么想的
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-01-05T00:00:00+08:00" content="2016-01-05">
+              2016-01-05
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/杂谈/" itemprop="url" rel="index">
+                    <span itemprop="name">杂谈</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/01/05/endless-loop/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/05/endless-loop/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>我们在生活或者工作中总是遇到一些问题需要去解决。其中有不少是“死循环”问题，一些看似无解的东西。</p>
+<p>最近想来这类问题是比较容易解决的，因为是个环，其必有多个节点可以作为攻破点，任何一个节点被攻克之后，环终将不是环。这就像两军对垒时，有一方摆出一个环环相扣的阵法，看似无敌，却总被明眼人找到致命弱点，一破便获得胜利。</p>
+<p>再看我们的“死循环”也就这么回事，而环的致命弱点往往是自己所处的节，你想想敌阵中最要命的环节居然是我们安插的“内奸”，怎能不破？</p>
+<p>所以说，遇到问题把各个环节写出来，答案也许就已找到。</p>
+<p>PS:我用了“我们”而没有用“我”，因为我知道自己在这方面并不孤单。</p>
 
           
         
@@ -1443,138 +1574,6 @@
 
 
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2015/12/30/marathon/" itemprop="url">
-                  半马与全马有什么不同
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2015-12-30T00:00:00+08:00" content="2015-12-30">
-              2015-12-30
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/杂谈/" itemprop="url" rel="index">
-                    <span itemprop="name">杂谈</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2015/12/30/marathon/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/30/marathon/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h5 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h5><p>这篇文章本来计划昨天写的。而昨天有老罗的锤子新品发布会，就将看这发布会当做首要任务来着。看完之后，一看时间还比较早的时候，想着要不现在写的时候，有一朋友来家里聊天，这一聊时间就过去了。就这样，这篇博文就成今天要写的。<br>这是不是说明我自己的意志力与执行力不够呢？</p>
-<p>还有就是今天的工作效率也不怎么样，就是没有了干活的意愿，前段时间的持续耐力不知怎么就这么消失了。导致，今天的生产很低的。好了，唠叨说完，开始进入正题。</p>
-<h5 id="回归正题"><a href="#回归正题" class="headerlink" title="回归正题"></a>回归正题</h5><p>我之前写过一篇博文是说<a href="../27/run.html">我跑步也有六、七年</a>。从这文章中我简单的提了一句，我有参加学院的5公里长跑，并取了不错的名次。关键是，自己出来实习或者工作的时候，依然持续着一周几次的跑步，心情好的时候多跑跑，心情不太好的时候就少跑跑。</p>
-<p>就这样一天天的上着班，一次偶然的机会听到上海有马拉松比赛。然后我就开始慢慢的关注马拉松，这么几年有参加过几次比赛。半程的也有，全程的也有。</p>
-<p>当时报名的时候，看见全程的42公里完全不敢尝试，所以就小心谨慎的报名半程的，想试试自己是否能够跑的下来。现在回想，第一次报名半程马拉松，心里没什么底，不知道自己能否跑下来，跑的过程中会不会出现什么意料之外的事情，毕竟平时并没有跑过这么长的距离。</p>
-<p>没底归没底，也没有对自己造成太大的心里负担，平时还是按着原来的节奏跑着，一天跑个几公里。然后，就有那么一天，跑下平日的量时，感觉特别好，又多加了好几倍，感觉依然良好。本还想继续，只是时间不早，就回去了，然后我知道半程马拉松没有什么好担心的。再想想，比赛那天有三万人，就完全放心了，只要平时正常运动，等着比赛的到来。</p>
-<p>比赛那天，结果和自己想象的差不多，跑步的人真的很多，那是我生平第一次见这么多人跑步，真的很壮观。后面几次参加，依然有这种感觉。一声枪响，比赛正式开始，起初因为人太多提不起速，就大家一起跑着，没过一会儿就到了5公里，然后10公里。之后，该提速的都已经提速，又由于5公里、10公里的到来，参加迷你马拉松的人员基本都已经到目的地。这么个时候，跑步就相对宽松，跑的快的跑的慢的都不在一条线上。虽然这个时候还有好多人在一起跑，也基本和平时自己一个人差不多，只是偶尔被人超，又偶尔超那么一两人。我就是在这种节奏中，结束了自己的第一次半程马拉松赛，感觉还是挺好的，不怎么累，就是脚有点酸痛，后面几天就更酸痛了，这个暂且不提。</p>
-<p>半程马拉松下来，感觉压力并不大，想着全程应该也还好。然后第二年就参加全程马拉松赛（其实是半程马拉松赛的名额已满），也没有感觉太大的忐忑，平时依然没有经过特别训练，还是正常运动，等着比赛的开始。</p>
-<p>全程的前半段和之前没太大的差别，只是到了25公里之后感觉有点吃力，最后挺到30公里的时候，就感觉脚已经不是自己的脚，真的真的很想坐下来休息。说的直白点就是全程的痛过从30公里开始，一直到40公里才算结束。那后面2点几公里呢？也许你会说是放弃了，其实没有的，不知为什么后面这点距离，居然是用跑结束的。那从30公里到40公里的这10公里中，我都在想些什么呢？</p>
-<p>30公里的时候，我的脚底板开始疼，小腿和大腿都比较酸，跑不动了，我就开始走了。如果我还能跑的话，其实痛苦的时间也不会太长，问题是我只能走，导致痛过的时间明显就变长。在上海马拉松的全程赛中，其路线并不是一直往前往前，而是有绕道的，中间虽然有隔代，也有人监管，这是这个时候相对已经很松了。我在这边走的时候，其实是30公里多点，我就看到对面的37公里的牌子，那个时候我是多么的想穿过去，提前结束我这痛苦的旅程。如我写在“写在前面”的语言一样，我的执行力不够啊，所以并没有行动，只是告诉自己再走走，实在不行的时候再穿吧。只是走着走着已经没有机会了，我已经走到另一边，没有办法再穿。这个是不是说明机不可失呢？</p>
-<p>就这样我才发现我只走了5公里左右，才发现5公里真的很长。没办法，我得继续走着，无论如何也得在关门的时候完成我的赛事。只是在这后公里的过程中，我不停的看到马路旁边有居民骑着电动车去往他们的目的地，而且我们方向一致，路线也是样的，只不过一个在赛道，一个不在赛道而已。我那时就想着，要是现在能够坐着电瓶车过去就好了。想归想，腿似乎并没有听大脑的指挥，依然是自顾自的往前走着。在这漫漫的5公里，我自己都不知道如何完成的，因为大脑老是想着坐电瓶车，感觉那样会很爽，会提前完成这痛苦的旅程，可无论怎么想，腿只是往前走，完全不顾你的感受。</p>
-<p>最后，终于熬到了40多公里，大脑这个时候开始兴奋了，腿似乎也感觉舒服点（其实都是幻觉）。于是，又开始跑起来，最后一小段还加了点速，最终从开始到结束用了5小时左右的时间完成。虽然，并不是很快，但是真的完成了，依然有成就感;之前虽然，忍受着痛过，此时此刻依然感觉无比的喜悦。完赛后的几天，大腿的酸痛就更加严重了，每次坐下起来或者上下楼梯都感觉是中煎熬。</p>
-<p>这次虽然如此难受，这个比赛的来年我又参加一次（2014年赛事），感受和这次差不多，思想斗争也没怎么变化。当时有小伙伴问明明知道不好受，为什么还要去呢？这个我当时的回答是：虽然痛苦，但总感觉这个每年应该经历至少那么一回。然而今年（2015年）我并有机会感受这酸爽的感觉，原因是报名的人太多，我没有被抽中。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1620,7 +1619,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">27</span>
+              <span class="site-state-item-count">28</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -1628,7 +1627,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-count">7</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
