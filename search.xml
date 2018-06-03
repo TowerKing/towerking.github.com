@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title><![CDATA[在 Mac 上安装 RabbitMQ]]></title>
+      <url>http://towerking.github.io/2018/06/03/install-rabbitmq-on-mac/</url>
+      <content type="html"><![CDATA[<h1 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h1><p>我的苹果电脑操作系统版本是 <strong>macOS High Sierra Version 10.13.4</strong>，说明版本号是在安装过程中遇到的问题与此有关。</p>
+<h1 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h1><p>参考<a href="http://www.rabbitmq.com/install-homebrew.html" target="_blank" rel="external">RabbitMQ 官方文档</a>，利用 Homebrew 进行安装，主要步骤就两步。</p>
+<blockquote>
+<p><code>brew update</code><br><code>brew install rabbitmq</code></p>
+</blockquote>
+<p>在安装 RabbitMQ 之前，程序会优先安装一些依赖，可以在控制台看到需要的依赖有以下几种</p>
+<blockquote>
+<p>Installing dependencies for rabbitmq: openssl, jpeg, libpng, libtiff, wxmac, erlang</p>
+</blockquote>
+<p>依赖安装完成之后，开始安装 RabbitMQ，但是在安装过程中出现了如下错误。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">Error: The `brew link` step did not complete successfully</div><div class="line">The formula built, but is not symlinked into /usr/local</div><div class="line">Could not symlink sbin/cuttlefish</div><div class="line">/usr/local/sbin is not writable.</div><div class="line"></div><div class="line">You can try again using:</div><div class="line">  `brew link rabbitmq`</div></pre></td></tr></table></figure>
+<p>尝试使用给出的解决方案，即 <code>brew link rabbitmq</code> 。执行完成之后，依然会有错误，错误信息是<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Linking /usr/local/Cellar/rabbitmq/3.7.5...</div><div class="line">Error: Could not symlink sbin/cuttlefish</div><div class="line">/usr/local/sbin is not writable.</div></pre></td></tr></table></figure></p>
+<p>然后利用 Google 网上找到解决方案，结合网站 <a href="https://stackoverflow.com/questions/46778133/brew-link-php71-could-not-symlink-sbin-php-fpm?noredirect=1" target="_blank" rel="external">brew link php71: Could not symlink sbin/php-fpm</a> 与网站 <a href="https://github.com/Homebrew/brew/issues/3228" target="_blank" rel="external">Can’t chown /usr/local in High Sierra</a> 执行以下几条命令。</p>
+<blockquote>
+<p>cd /usr/local/<br>sudo mkdir sbin<br>sudo chown -R $(whoami) $(brew –prefix)/*</p>
+</blockquote>
+<p><strong>PS：如果 Mac 的操作系统不是 High Sierra，我们可以使用命令<code>sudo chown -R $(whoami) $(brew --prefix)</code> 。</strong></p>
+<p>然后再执行命令 <code>brew link rabbitmq</code>， 控制台会告诉我们已经成功创建 <code>Linking /usr/local/Cellar/rabbitmq/3.7.5... 23 symlinks created</code>。</p>
+<h1 id="加入环境变量"><a href="#加入环境变量" class="headerlink" title="加入环境变量"></a>加入环境变量</h1><p>开始建立的连接，主要是将 RabbitMQ sever scripts 安装在 <code>/usr/local/sbin</code> , 但是这个路径不会自动添加到自己的 path 中，所以需要我们手动添加。添加方法利用 vi 在文件 ~/.bashrc 中添加一行 <code>export PATH=$PATH:/usr/local/sbin</code> , 然后执行命令 <code>source ~/.bashrc</code> 。</p>
+<h1 id="启动-RabbitMQ"><a href="#启动-RabbitMQ" class="headerlink" title="启动 RabbitMQ"></a>启动 RabbitMQ</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">To have launchd start rabbitmq now and restart at login:</div><div class="line">  `brew services start rabbitmq`</div><div class="line">Or, if you don&apos;t want/need a background service you can just run:</div><div class="line">  `rabbitmq-server`</div></pre></td></tr></table></figure>
+<p>执行完后，可以尝试访问 <a href="http://localhost:15672" target="_blank" rel="external">http://localhost:15672</a>。</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[不要被自己所欺骗]]></title>
       <url>http://towerking.github.io/2016/11/15/%E4%B8%8D%E8%A6%81%E8%A2%AB%E8%87%AA%E5%B7%B1%E6%89%80%E6%AC%BA%E9%AA%97/</url>
       <content type="html"><![CDATA[<p><strong>生活中很多东西并不像银行卡中的余额那么清晰可见，是多少就是多少，不会有半点欺瞒。</strong> 在随着时间的推移过程中，我们往往会被自己记忆中的东西所欺骗。我们以为那是全部，其实那只是过往事物的一点点，更多的细节与事实已经被我们遗忘。</p>
