@@ -4,15 +4,15 @@
 
 
 <html class="theme-next pisces">
-<head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
 
 
 
@@ -27,7 +27,7 @@
 
   
   
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
 
 
 
@@ -61,43 +61,38 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css">
 
-<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="Hexo, NexT" />
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css">
 
 
+  <meta name="keywords" content="Hexo, NexT">
 
 
 
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?v=5.0.1" />
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?v=5.0.1">
 
 
 
 
 
 
-<meta name="description" content="我们在生活或者工作中总是遇到一些问题需要去解决。其中有不少是“死循环”问题，一些看似无解的东西。
-最近想来这类问题是比较容易解决的，因为是个环，其必有多个节点可以作为攻破点，任何一个节点被攻克之后，环终将不是环。这就像两军对垒时，有一方摆出一个环环相扣的阵法，看似无敌，却总被明眼人找到致命弱点，一破便获得胜利。
-再看我们的“死循环”也就这么回事，而环的致命弱点往往是自己所处的节，你想想敌阵中最要命">
+<meta name="description" content="我们在生活或者工作中总是遇到一些问题需要去解决。其中有不少是“死循环”问题，一些看似无解的东西。 最近想来这类问题是比较容易解决的，因为是个环，其必有多个节点可以作为攻破点，任何一个节点被攻克之后，环终将不是环。这就像两军对垒时，有一方摆出一个环环相扣的阵法，看似无敌，却总被明眼人找到致命弱点，一破便获得胜利。 再看我们的“死循环”也就这么回事，而环的致命弱点往往是自己所处的节，你想想敌阵中最要命">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于死循环我是这么想的">
 <meta property="og:url" content="http://towerking.github.io/2016/01/05/endless-loop/index.html">
 <meta property="og:site_name" content="猫窝">
-<meta property="og:description" content="我们在生活或者工作中总是遇到一些问题需要去解决。其中有不少是“死循环”问题，一些看似无解的东西。
-最近想来这类问题是比较容易解决的，因为是个环，其必有多个节点可以作为攻破点，任何一个节点被攻克之后，环终将不是环。这就像两军对垒时，有一方摆出一个环环相扣的阵法，看似无敌，却总被明眼人找到致命弱点，一破便获得胜利。
-再看我们的“死循环”也就这么回事，而环的致命弱点往往是自己所处的节，你想想敌阵中最要命">
+<meta property="og:description" content="我们在生活或者工作中总是遇到一些问题需要去解决。其中有不少是“死循环”问题，一些看似无解的东西。 最近想来这类问题是比较容易解决的，因为是个环，其必有多个节点可以作为攻破点，任何一个节点被攻克之后，环终将不是环。这就像两军对垒时，有一方摆出一个环环相扣的阵法，看似无敌，却总被明眼人找到致命弱点，一破便获得胜利。 再看我们的“死循环”也就这么回事，而环的致命弱点往往是自己所处的节，你想想敌阵中最要命">
+<meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2016-07-01T16:00:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于死循环我是这么想的">
-<meta name="twitter:description" content="我们在生活或者工作中总是遇到一些问题需要去解决。其中有不少是“死循环”问题，一些看似无解的东西。
-最近想来这类问题是比较容易解决的，因为是个环，其必有多个节点可以作为攻破点，任何一个节点被攻克之后，环终将不是环。这就像两军对垒时，有一方摆出一个环环相扣的阵法，看似无敌，却总被明眼人找到致命弱点，一破便获得胜利。
-再看我们的“死循环”也就这么回事，而环的致命弱点往往是自己所处的节，你想想敌阵中最要命">
+<meta name="twitter:description" content="我们在生活或者工作中总是遇到一些问题需要去解决。其中有不少是“死循环”问题，一些看似无解的东西。 最近想来这类问题是比较容易解决的，因为是个环，其必有多个节点可以作为攻破点，任何一个节点被攻克之后，环终将不是环。这就像两军对垒时，有一方摆出一个环环相扣的阵法，看似无敌，却总被明眼人找到致命弱点，一破便获得胜利。 再看我们的“死循环”也就这么回事，而环的致命弱点往往是自己所处的节，你想想敌阵中最要命">
 
 
 
@@ -118,7 +113,7 @@
 
 
 
-  <link rel="canonical" href="http://towerking.github.io/2016/01/05/endless-loop/"/>
+  <link rel="canonical" href="http://towerking.github.io/2016/01/05/endless-loop/">
 
   <title> 关于死循环我是这么想的 | 猫窝 </title>
 </head>
@@ -149,7 +144,7 @@
   
 
   <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
+    <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
       <span class="site-title">猫窝</span>
       <span class="logo-line-after"><i></i></span>
@@ -176,7 +171,7 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
             首页
           </a>
@@ -186,7 +181,7 @@
         <li class="menu-item menu-item-categories">
           <a href="/categories" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
             
             分类
           </a>
@@ -196,7 +191,7 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
             归档
           </a>
@@ -206,7 +201,7 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
             
             标签
           </a>
@@ -216,7 +211,7 @@
         <li class="menu-item menu-item-navigation">
           <a href="/navigation" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-link"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-link"></i> <br>
             
             导航
           </a>
@@ -226,7 +221,7 @@
         <li class="menu-item menu-item-books">
           <a href="/books" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-book"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br>
             
             书单
           </a>
@@ -236,7 +231,7 @@
         <li class="menu-item menu-item-commonweal">
           <a href="/404.html" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>
             
             公益
           </a>
@@ -249,7 +244,7 @@
             <a href="#" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
             
             搜索
           </a>
@@ -321,7 +316,7 @@
           </span>
 
           
-            <span class="post-category" >
+            <span class="post-category">
               &nbsp; | &nbsp;
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
@@ -449,7 +444,7 @@
 
       
         <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
             文章目录
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
@@ -460,9 +455,7 @@
 
       <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.png"
-               alt="王巍" />
+          <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="王巍">
           <p class="site-author-name" itemprop="name">王巍</p>
           <p class="site-description motion-element" itemprop="description"></p>
         </div>
@@ -551,10 +544,10 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
+        <div class="copyright">
   
   &copy; 
-  <span itemprop="copyrightYear">2018</span>
+  <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
