@@ -297,6 +297,123 @@
             
               
                 
+                <a class="post-title-link" href="/2016/01/05/endless-loop/" itemprop="url">
+                  关于死循环我是这么想的
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-01-05T00:00:00+08:00" content="2016-01-05">
+              2016-01-05
+            </time>
+          </span>
+
+          
+            <span class="post-category">
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/杂谈/" itemprop="url" rel="index">
+                    <span itemprop="name">杂谈</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>我们在生活或者工作中总是遇到一些问题需要去解决。其中有不少是“死循环”问题，一些看似无解的东西。</p>
+<p>最近想来这类问题是比较容易解决的，因为是个环，其必有多个节点可以作为攻破点，任何一个节点被攻克之后，环终将不是环。这就像两军对垒时，有一方摆出一个环环相扣的阵法，看似无敌，却总被明眼人找到致命弱点，一破便获得胜利。</p>
+<p>再看我们的“死循环”也就这么回事，而环的致命弱点往往是自己所处的节，你想想敌阵中最要命的环节居然是我们安插的“内奸”，怎能不破？</p>
+<p>所以说，遇到问题把各个环节写出来，答案也许就已找到。</p>
+<p>PS:我用了“我们”而没有用“我”，因为我知道自己在这方面并不孤单。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2016/01/04/goal-and-execution/" itemprop="url">
                   计划是有了，然后呢
                 </a>
@@ -1392,129 +1509,6 @@
 
 
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2015/12/23/android-issues/" itemprop="url">
-                  安卓开发问题碎片汇总
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2015-12-23T00:00:00+08:00" content="2015-12-23">
-              2015-12-23
-            </time>
-          </span>
-
-          
-            <span class="post-category">
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Android/" itemprop="url" rel="index">
-                    <span itemprop="name">Android</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>在整合阿里百川时，遇到的两个问题，通过google找到了解决方案。<br>1.第一个问题</p>
-<blockquote>
-<p>Error:Execution failed for task ‘:app:dexDebug’.<br>com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process ‘command ‘/usr/java/jdk1.7.0_17/bin/java’’ finished with non-zero exit value 2</p>
-</blockquote>
-<p> 解决方法是：<br> <code><pre>defaultConfig { multiDexEnabled true }</pre></code></p>
-<p>参考网址 <a href="http://stackoverflow.com/questions/28917696/errorexecution-failed-for-task-appdexdebug-com-android-ide-common-process" target="_blank" rel="noopener">stackoverflow</a></p>
-<p>2.第二个问题</p>
-<blockquote>
-<p>Error:Execution failed for task ‘:app:packageAllDebugClassesForMultiDex’.<br>java.util.zip.ZipException: duplicate entry: com/ta/utdid2/device/UTDevice.class</p>
-</blockquote>
-<p><strong>解决方法</strong>：从提示就能看明白是有两个相同的类.经调查，我将其中一个删除了，暂时没有什么问题。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1558,7 +1552,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">31</span>
+              <span class="site-state-item-count">32</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
